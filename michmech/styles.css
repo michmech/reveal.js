@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 1.25em;
+}
+
+section a {
+  color: #336699 !important;
+}
+.reveal .slide-number a {
+  text-decoration: none;
+}
+.reveal .slide-number {
+  text-decoration: none;
+  left: 8px;
+  right: auto;
+}
+
+section {
+  text-align: left;
+  box-sizing: border-box;
+  padding: 20px 40px;
+}
+
+h1 {
+  line-height: 1.5em;
+  text-wrap: balance;
+}
+h1:first-child {
+  margin-top: 0;
+}
+
+h2 {
+  line-height: 1.5em;
+  text-wrap: balance;
+}
+h2:first-child {
+  margin-top: 0;
+}
+
+h3 {
+  font-weight: normal;
+}
+h3:first-child {
+  margin-top: 0;
+}
+
+p {
+  line-height: 1.5em;
+}
+
+ul, ol, li {
+  margin: 0;
+  padding: 0;
+}
+li {
+  margin-left: 2em;
+  line-height: 1.5em;
+  text-wrap: balance;
+}
+
+div.column {
+  float: left;
+  max-width: 50%;
+}
+div.column ~ div.column {
+  margin-left: 100px;
+}
+div.column.centered {
+  text-align: center;
+}
+
+img.portrait {
+  width: 200px;
+  border-radius: 100px;
+}
