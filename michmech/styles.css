@@ -62,10 +62,10 @@ li {
 
 div.column {
   float: left;
-  max-width: 50%;
+  max-width: 40%;
 }
 div.column ~ div.column {
-  margin-left: 100px;
+  margin-left: 50px;
 }
 div.column.centered {
   text-align: center;
