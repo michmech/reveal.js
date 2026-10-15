@@ -26,22 +26,22 @@ Language technology lecture 1
 ---
 Revision
 ## Which of these are examples of *natural languages*?
-- German, Arabic, Swahili
-- Python, C++, JavaScript
-- XML, JSON, SQL
+1. German, Arabic, Swahili
+2. Python, C++, JavaScript
+3. XML, JSON, SQL
 
 ---
 Revision
 ## Which of these are the *modalities* of language?
-- Spoken, written, signed
-- Speech-to-text, text-to-speech, speech-to-speech, text-to-text
-- Translation, interpreting, localisation
+1. Spoken, written, signed
+2. Speech-to-text, text-to-speech, speech-to-speech, text-to-text
+3. Translation, interpreting, localisation
 
 ---
 Revision
 ## What does NLP stand for? \*
-- Natural Language Processing
-- Neuro-Linguistic Programming
+1. Natural Language Processing
+2. Neuro-Linguistic Programming
 
 &nbsp;
 
@@ -59,9 +59,6 @@ Language technology lecture 1
 - The evolution of character encoding from ASCII to Unicode.
 - Concepts such as ‘codepage’ and ‘extended character’.
 - Understanding (some of) the complexity of Unicode: combining characters, Unicode normalisation, UTF-8.
-- Dealing with wrongly encoded text.
-- Changing the character encoding of text in various software packages.
-- Inputting text in various languages using different keyboard layouts, alternative input methods and character pickers.
 
 ---
 ## Character encoding
@@ -70,7 +67,7 @@ Language technology lecture 1
   **Happy.**
 
 - The computer sees:  
-  **[72, 97, 112, 112, 121, 46]**
+  **72, 97, 112, 112, 121, 46**
 
 ---
 ## ASCII
@@ -87,9 +84,9 @@ Language technology lecture 1
 ## ASCII printable characters
 - Space (32)
 - Symbols and punctuation (33 – 47, 58 – 64, 91 – 96, 123 – 126)
-- Numerals “0” – “9” (48 – 57)
-- Upper-case letters “A” – “Z” (65 – 90)
-- Lower-case letters “a” – “z” (97 – 122)
+- Numerals **0** – **9** (48 – 57)
+- Upper-case letters **A** – **Z** (65 – 90)
+- Lower-case letters **a** – **z** (97 – 122)
 
 ---
 ## ASCII control characters
@@ -183,7 +180,7 @@ Language technology lecture 1
   - Irish: á é í ó ú
 - Characters that *extend* the Latin alphabet
   - German: ß
-  - Islandic: þ
+  - Icelandic: þ
 - Characters from non-Latin writing systems
   - Cyrillic: а б в г д...
   - Greek: α β γ δ ε...
@@ -192,25 +189,24 @@ Language technology lecture 1
 ---
 Side note
 ## Which writing systems do you know?
-- Latin, Cyrillic, Greek
-- Arabic, Hebrew
-- Chinese (Traditional, Simplified), Kanji
-- Kana: Hiragana, Katakana
-- Korean
-- ... 
-
----
-True or false? 
-## “Each language uses exactly one writing system.”
+- Latin,
+  [Cyrillic](https://r12a.github.io/scripts/samples/index.html?script=cyrl#result),
+  [Greek](https://r12a.github.io/scripts/samples/index.html?script=grek#result)
+- [Arabic](https://r12a.github.io/scripts/samples/index.html?script=arab#result),
+  [Hebrew](https://r12a.github.io/scripts/samples/index.html?script=hebr#result)
+- [Chinese](https://r12a.github.io/scripts/samples/index.html?script=hani#result) (Traditional, Simplified)
+- [Japanese](https://r12a.github.io/scripts/samples/index.html?script=jpan#result): Kanji, Hiragana, Katakana
+- [Korean](https://r12a.github.io/scripts/samples/index.html?script=kore#result)
+- ...
   
 ---
-## How they used to write in ASCII
-- Leaving it out
+## How our ancestors used to write in ASCII
+- Leaving the accents out
   - Czech: “řidič” → “ridic”
-- Faking it
+- Faking the accents
   - German: “österreichisch” → “oesterreichisch”
   - Irish: “sásta” → “sa/sta”
-- **Romanisation**
+- Transliteration, romanisation
   - Russian: “правда” → “pravda”
 
 Still somewhat relevant for Internet URLs.
@@ -230,6 +226,17 @@ ISO 8859 “8-bit single-byte coded graphic character sets”
 Each character set is:
 - 0 – 127: same as ASCII
 - 128 – 255: additional characters
+
+---
+## ISO 8859 examples
+- ISO 8859-1 (“Latin-1”): Latin characters for Western European languages  
+  http://arit.lexiconista.com/arit/character-encoding-tables/?e=iso-8859-1
+- ISO 8859-2 (“Latin-2”): Latin characters for Central European languages  
+  http://arit.lexiconista.com/arit/character-encoding-tables/?e=iso-8859-2
+- ISO 8859-5 (“Latin-Cyrillic”): Cyrillic characters  
+  http://arit.lexiconista.com/arit/character-encoding-tables/?e=iso-8859-5
+- ISO 8859-6 (“Latin-Arabic”): Arabic characters  
+  http://arit.lexiconista.com/arit/character-encoding-tables/?e=iso-8859-6
 
 ---
 ## ISO 8859: why exactly 256 characters?
@@ -305,29 +312,18 @@ Side note
 - ...
 
 ---
-## ISO 8859 examples
-- ISO 8859-1 (“Latin-1”): Latin characters for Western European languages  
-  http://arit.lexiconista.com/arit/character-encoding-tables/?e=iso-8859-1
-- ISO 8859-2 (“Latin-2”): Latin characters for Central European languages  
-  http://arit.lexiconista.com/arit/character-encoding-tables/?e=iso-8859-2
-- ISO 8859-5 (“Latin-Cyrillic”): Cyrillic characters  
-  http://arit.lexiconista.com/arit/character-encoding-tables/?e=iso-8859-5
-- ISO 8859-6 (“Latin-Arabic”): Arabic characters
-  http://arit.lexiconista.com/arit/character-encoding-tables/?e=iso-8859-6
-
----
-## Non-ISO chararacter sets 
+## Non-ISO character sets 
 - Microsoft “codepages”
   - Windows-1252: Western-European languages
   - Windows-1250: Central-European languages
   - Windows-1251: Cyrillic
 - National governments, private initiatives
   - KOI8-R: Russian
-  - Big5 : Chinese
+  - Big5: Chinese
 
 ---
 ## Corrupted text
-“**Š**” → ISO 8859-2 → **169** → ISO 8859-5 → “**Љ**”
+**Š** → ISO 8859-2 → **169** → ISO 8859-5 → **Љ**
 
 ---
 ![right](corrupt2.png)
@@ -340,15 +336,35 @@ Side note
 
 ---
 ## Unicode
-- All the characters of all the languages the wold, alive or dead 
-- Uncode Consortium www.unicode.org, from 1991 onwards
+- All the characters of all the writing systems of all the languages of the world, alive or dead 
+- Unicode Consortium, www.unicode.org, from 1991 onwards
 - Currently: version 18 containing 310,341 characters
 - Each character has a number, a so-called **codepoint**.
-  - Characters 1 – 127 are the same as ASCII
+  - Characters 0 – 127 are the same as ASCII
 
 ---
-## What Unicode knows about each character
-![](decode1.png)
+## What Unicode knows about each character (1/2)
+
+[https://unicodedecode.com/?s=Měchura](https://unicodedecode.com/?s=M%C4%9Bchura)
+
+![](decode.png)
+
+---
+## What Unicode knows about each character (2/2)
+
+[https://unicodedecode.com/](https://unicodedecode.com/)
+
+Try it with sample texts from different writing systems:
+
+- Latin,
+  [Cyrillic](https://r12a.github.io/scripts/samples/index.html?script=cyrl#result),
+  [Greek](https://r12a.github.io/scripts/samples/index.html?script=grek#result)
+- [Arabic](https://r12a.github.io/scripts/samples/index.html?script=arab#result),
+  [Hebrew](https://r12a.github.io/scripts/samples/index.html?script=hebr#result)
+- [Chinese](https://r12a.github.io/scripts/samples/index.html?script=hani#result) (Traditional, Simplified)
+- [Japanese](https://r12a.github.io/scripts/samples/index.html?script=jpan#result): Kanji, Hiragana, Katakana
+- [Korean](https://r12a.github.io/scripts/samples/index.html?script=kore#result)
+- ...
 
 ---
 ## Unicode codepoints
@@ -368,33 +384,55 @@ Example:
 Side note
 ## Hexadecimal notation
 - Binary notation eg. **1001100**
-  - Each is position is a 0 or a 1
+  - Each position is one of: 0, 1
 - Decimal notation eg. **76**
-  - Each position is one of: 0, 1, 2 ... 7, 8, 9
+  - Each position is one of: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
 - Hexadecimal notation: **4C**
-  - Each position is one of: 0, 1, 2 ... 7, 8, 9, A ... F
+  - Each position is one of: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F
 
 ---
-## Combining characters versus and precomposed characters
+## Precomposed characters versus combining characters
 
-![](combining.webp)
+<div class="column">
 
----
+  ### **ü**
+  - U+00FC LATIN SMALL LETTER U WITH DIAERESIS
+
+</div>
+
+<div class="column">
+
+  ### **ü**
+  - U+0075 LATIN SMALL LETTER U
+  - U+0308 COMBINING DIAERESIS
+  
+  https://sheeptester.github.io/javascripts/combining.html
+
+</div>
+
+<!-- ---
 ## Unicode normal forms
 
-![](normalforms.png)
+![](normalforms.png) -->
 
 ---
+## Glyph
+- The shape of a codepoint. Several codepoints can have the same glyph
+  - Example: Latin **a** and Cyrillic **a**
+- The shape of a base character followed by one or more combining characters
+  - Example: **ü**
+
+<!-- ---
 ## Homoglyphs
 
-![](homoglyph.webp)
+![](homoglyph.webp) -->
 
 ---
 ## Unicode encoding
-- Unicode: Gives each a character a number.
-- A Unicode encoding: transforms that number into bits and bytes.
+- Unicode: gives each character a number.
+- Unicode encoding: transforms that number into bits and bytes.
   - **UTF-8**: each codepoint is encoded as *one byte* (eight bits) if possible, more if needed.
-  - **UTF-16**: each codepoint is encoded as *two bytes* (sixteen bits) if possible, more if needed.
+  - **UTF-16**: each codepoint is encoded as *two bytes* (16 bits) if possible, more if needed.
 
 ---
 ## Finding and inputting characters (Windows)
@@ -430,3 +468,5 @@ http://arit.lexiconista.com/arit/
 
 ![book cover](arit.webp)
 
+---
+## That’s it, see you next week!
