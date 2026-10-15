@@ -75,3 +75,17 @@ img.portrait {
   width: 200px;
   border-radius: 100px;
 }
+
+span.hilite {
+  background-color: lemonchiffon;
+  padding: 2px 4px;
+  margin-left: -2px;
+  margin-right: -2px;
+  box-shadow: 2px 2px 0px lemonchiffon;
+}
+.grey {
+  color: #999999;
+}
+.small {
+  font-size: 0.8em;
+}
