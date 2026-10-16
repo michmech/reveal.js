@@ -53,14 +53,6 @@ Language technology lecture 1
 # How computers represent characters: ASCII, Unicode and everything in between
 
 ---
-## Plan for today
-- How computers represent the characters of various languages, alphabets and writing systems.
-- The diversity of European character sets.
-- The evolution of character encoding from ASCII to Unicode.
-- Concepts such as ‘codepage’ and ‘extended character’.
-- Understanding (some of) the complexity of Unicode: combining characters, Unicode normalisation, UTF-8.
-
----
 ## Character encoding
 
 - You see:  
@@ -68,6 +60,12 @@ Language technology lecture 1
 
 - The computer sees:  
   **72, 97, 112, 112, 121, 46**
+
+---
+## The evolution of character encoding standards
+1. 1960s: ASCII
+2. 1980s: “the age of character sets”: ISO 8859 etc.
+3. 2000s: Unicode
 
 ---
 ## ASCII
