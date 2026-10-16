@@ -340,7 +340,8 @@ Side note
 - Unicode Consortium, www.unicode.org, from 1991 onwards
 - Currently: version 18 containing 310,341 characters
 - Each character has a number, a so-called **codepoint**.
-  - Characters 0 – 127 are the same as ASCII
+  - Characters 0 – 255 are the same as ISO 8859-1
+    - Characters 0 – 127 are the same as ASCII
 
 ---
 ## What Unicode knows about each character (1/2)
