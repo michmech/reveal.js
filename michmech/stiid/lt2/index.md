@@ -38,7 +38,7 @@ Revision
 
 ---
 Revision
-## What character does Unicode contain?
+## Which characters does Unicode contain?
 1. All characters of all writing systems of the world.
 2. All characters not included in ASCII.
 3. All characters not included in ISO 8859-1.
@@ -61,7 +61,7 @@ Revision
 ## What is a *codepoint*?
 1. A Unicode term for a number assigned to a character.
 2. The part of any decimal number after the decimal dot.
-3. Another word a *bit*.
+3. Another word for a *bit*.
 
 ---
 Revision
@@ -99,7 +99,7 @@ Revision
 
 ---
 Revision
-## what is UTF-8?
+## What is UTF-8?
 1. A more formal name for Unicode.
 2. A Unicode *encoding*: a method for transforming the number of a codepoint into a sequence of ones and zeros.
 
@@ -108,3 +108,233 @@ Revision
 Language technology lecture 2
 # Working with text: spellcheckers, grammar correctors, AI writing assistants
 
+---
+## Plan for today
+1. Language-related issues when handling text on computers
+    - Punctuation
+    - Quotation marks
+    - Number and date formatting
+    - Capitalisation
+    - Names of people and things
+    - Alphabetical sorting
+    - End-of-line word hyphenation
+    - Right-to-left text
+2. Writing tools
+    - Autocorrect
+    - Spellchecking
+    - Grammar correction
+    - AI writing assistants
+
+---
+## The Latin alphabet from language to language
+
+![](accents.png) <!--{.element style="height: 500px"}-->
+
+---
+## Same glyph, different codepoints
+
+<div class="column centered">
+
+  ### a
+
+  U+0061 LATIN SMALL LETTER A
+
+</div>
+<div class="column centered">
+
+  ### а
+
+  U+0430 CYRILLIC SMALL LETTER A
+
+</div>
+
+---
+## Similar glyph, different codepoints (1/2)
+
+<div class="column centered">
+
+  ### B
+
+  U+0042 LATIN CAPITAL LETTER B
+
+</div>
+<div class="column centered">
+
+  ### в
+
+  U+0432 CYRILLIC SMALL LETTER VE
+
+</div>
+
+---
+## Similar glyph, different codepoints (2/2)
+
+<div class="column centered">
+
+  ### ß
+
+  U+00DF LATIN SMALL LETTER SHARP S
+
+</div>
+<div class="column centered">
+
+  ### β
+
+  U+03B2 GREEK SMALL LETTER BETA
+
+</div>
+
+---
+## Lower-case, upper-case
+- Only exists in Latin, Cyrillic and Greek writing systems.
+- Some upper-casing/lower-casing rules are language-specific.
+
+---
+## Example: upper-casing “i” (in most languages)
+
+<div class="column centered">
+
+  ### i
+
+  U+0069 LATIN SMALL LETTER I
+
+</div>
+<div class="column centered">
+
+  ### I
+
+  U+0049 LATIN CAPITAL LETTER I
+
+</div>
+
+---
+## Example: Upper-casing “i” (in Turkish)
+
+<div class="column centered">
+
+  ### ı
+
+  U+0131 LATIN SMALL LETTER DOTLESS I
+  
+  ### i
+
+  U+0069 LATIN SMALL LETTER I
+
+</div>
+<div class="column centered">
+
+  ### I
+
+  U+0049 LATIN CAPITAL LETTER I
+
+  ### İ
+
+  U+0130 LATIN CAPITAL LETTER I WITH DOT ABOVE
+
+</div>
+
+---
+## Language-specificity
+To perform an operation (e.g. upper-casing) on a string of text,
+the software (e.g. your word processor) needs to know **which language** the text is in.
+
+---
+## Side note: What do you use to write?
+1. LibreOffice, OpenOffice
+2. Microsoft Word (locally on my computer)
+3. Microsoft Word (in the cloud)
+4. Google Docs
+5. Something else
+
+---
+## Quotation marks
+![](quotes.png) <!--{.element style="height: 300px"}-->
+
+---
+## Punctuation
+![](punctuation.png) <!--{.element style="height: 300px"}-->
+
+---
+## Spaces in Unicode
+- U+0020 SPACE
+- U+00A0 NO-BREAK SPACE
+- U+200B​ ZERO WIDTH SPACE
+
+---
+## End-of-line word hyphenation
+What if the next word doesn't fit on what remains of the line?
+- Word wrapping
+- Hyphenation
+
+---
+## Hyphens in Unicode
+- U+002D HYPHEN-MINUS
+- U+2011 NON-BREAKING HYPHEN
+- U+00AD ­SOFT HYPHEN
+
+---
+## Numbers
+
+<div class="column centered">
+
+  ### 1,651.34
+
+</div>
+<div class="column centered">
+
+  ### 1.651,34
+  ### 1 651,34
+
+</div>
+<div class="column centered">
+
+  ### 1’651.34
+
+</div>
+
+---
+## Amounts of money (1/2)
+
+<div class="column centered">
+
+  ### €1,651.34  
+  ### $1,651.34
+  ### £1,651.34
+
+</div>
+<div class="column centered">
+
+  ### 1.651,34 €
+
+</div>
+
+<div class="clear"></div>
+
+---
+## Amounts of money (2/2)
+- Symbols like £ and $ are ambiguous.
+  - Which country’s dollar? Which country’s pound? 
+- ISO 4217 provides unambiguous codes for currencies.
+  - USD, GBP, EUR...
+
+---
+## Oridnal numbers
+
+<div class="column centered">
+
+  ### 6th floor
+
+</div>
+<div class="column centered">
+
+  ### 6. Stock
+
+</div>
+<div class="column centered">
+
+  ### 6-й этаж
+
+</div>
+
+---
+## Dates

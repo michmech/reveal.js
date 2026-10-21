@@ -1,0 +1,7 @@
+I guess I should explain how Mars missions work, for any layman who may be reading this. We got to Earth orbit the normal way, through an ordinary ship to Hermes. All the Ares missions use Hermes to get to and from Mars. It’s really big and cost a lot so NASA built only one.
+
+Once we got to Hermes, four additional unmanned missions brought us fuel and supplies while we prepared for our trip. Once everything was a go, we set out for Mars. But not very fast. Gone are the days of heavy chemical fuel burns and and and and and transMars injection orbits.
+
+Hermes is powered by ion engines. They throw argon out the back of the ship really fast to get a tiny amount of acceleration. The thing is, it doesn’t take much reactant mass, so a little argon (and a nuclear reactor to power things) let us accelerate constantly the whole way there. You’d be amazed at how fast you can get going with a tiny acceleration over a long time.
+
+I could regale you with tales of how we had great fun on the trip, but I won’t. I don’t feel like reliving it right now. Suffice it to say we got to Mars 124 days later without strangling each other.

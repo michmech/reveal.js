@@ -92,3 +92,10 @@ span.hilite {
 .small {
   font-size: 0.8em;
 }
+
+h3 {
+  font-size: 2em;
+}
+h3 + h3 {
+  margin-top: -0.5em;
+}
