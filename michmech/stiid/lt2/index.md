@@ -6,18 +6,21 @@ Language technology lecture 2
 ## We are here
 0. Introductory lecture <!--{.element class="grey"}-->
 
-### Foundational technologies
+Foundational technologies
+
 1. (LT1) How computers represent characters: ASCII, Unicode and everything in between <!--{.element class="grey"}-->
 2. <span class="hilite">**(LT2) Working with text: spellcheckers, grammar correctors, AI writing assistants**</span>
 3. (IM1) Formats for representing text: Markdown, XML and their uses
 4. (IM2) Managing data: JSON, YAML, relational databases, Semantic Web.
 
-### A dive into NLP and AI
+A dive into NLP and AI
+
 5. (LT3) Intro to Natural Language Processing (NLP): tagging, parsing and their applications
 6. (LT4) Understanding the technology behind NLP: language models, vectors, word embeddings
 7. (LT5) Large Language Models (LLMs): understanding how they do what they do
 
-### Multilingual software
+Multilingual software
+
 8. (UI1) Understanding user interfaces: what designing a good user experience is about
 9. (UI2) Software localisation and globalisation: the challenge of translating on-screen text
 10. (IM3) Understanding Internet technology: how the Internet works under the hood
@@ -235,8 +238,7 @@ Language technology lecture 2
 
 ---
 ## Language-specificity
-To perform an operation (e.g. upper-casing) on a string of text,
-the software (e.g. your word processor) needs to know **which language** the text is in.
+- To perform an operation (e.g. upper-casing) on a string of text, the software (e.g. your word processor) needs to know **which language** the text is in.
 
 ---
 ## Side note: What do you use to write?
@@ -314,11 +316,11 @@ What if the next word doesn't fit on what remains of the line?
 ## Amounts of money (2/2)
 - Symbols like £ and $ are ambiguous.
   - Which country’s dollar? Which country’s pound? 
-- ISO 4217 provides unambiguous codes for currencies.
+- ISO 4217 standardizes unambiguous codes for currencies.
   - USD, GBP, EUR...
 
 ---
-## Oridnal numbers
+## Ordinal numbers
 
 <div class="column centered">
 
@@ -338,3 +340,81 @@ What if the next word doesn't fit on what remains of the line?
 
 ---
 ## Dates
+- Sequencing
+  - **12 May 2023**
+  - **May 12, 2023**
+- Long versus short
+  - **Monday, 12 May 2023**
+  - **12/05/2023**
+- Language-specific wording, punctuation, capitalisation
+  - English: **Monday, 12(th of) May 2023**
+  - German: **Montag, 12. Mai 2023**
+  - Czech: **pondělí, 12. května 2023**
+  - Russian: **понедельник, 12 мая 2023 г.**
+
+---
+## Times
+- 24-hour clock versus 12-hour clock
+  - **14:30**
+  - **2:30 PM**
+- Language-specific wording, punctuation, capitalisation
+  - English: **2:30 PM**
+  - Czech: **2:30 odp.**
+- Timezones!
+
+---
+## ISO 8601: unambiguous format for dates and times
+- 2023-05-12
+- 14:30:00
+
+---
+## Capitalisation of names
+- English:
+  - **European Union**
+  - **Republic of Ireland**
+  - **United States of America**
+- Czech:
+  - **Evropská unie**
+  - **Irská republika**
+  - **Spojené státy americké**
+
+---
+## Capitalisation of names of languages
+![](language-names.gif)
+
+---
+## People’s names
+- Sequencing
+  - Given name → surname: **Sarah Connor**
+  - Surname → give name: **Nagy István**
+- Capitalisation, punctuation, spacing
+  - **Lothar de Maizière**
+  - **Peadar Ó Súilleabháin**
+  - **Peter O’Sullivan**
+- Where is the surname?
+  - **José Gómez Iglesias**
+- Is there a surname, even?
+
+---
+## Alphabetical sorting
+- English: **A → ... → Z**
+- Irish: **A → Á → ... → Z**
+- German: **A|Ä → ... → Z**
+- Swedish: **A → ... → Z → Å → Ä → Ö**
+
+---
+## Sortkeys
+![](sortkey.gif)
+
+---
+## Collation
+A set of rules for comparing and sorting strings of text
+- What is the order of characters?
+- Is it case-sensitive? (eg. **a = A**?)
+- Is it accent-sensitive (eg. **A = Ä**?)
+
+---
+## Language-specificity
+- To perform an operation on a string of text, the software (e.g. your word processor) needs to know **which language** the text is in.
+- Do not over-eagerly “correct” textual features if the text is in a language you don’t speak.
+
