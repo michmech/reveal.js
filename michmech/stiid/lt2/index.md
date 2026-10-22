@@ -1,6 +1,6 @@
 340088-1 VO Sprachtechnologien, Informations- und Interfacedesign  
 Language technology lecture 2
-# Working with text: spellcheckers, grammar correctors, AI writing assistants
+# Working with text: going above the level of character encoding
 
 ---
 ## We are here
@@ -9,7 +9,7 @@ Language technology lecture 2
 Foundational technologies
 
 1. (LT1) How computers represent characters: ASCII, Unicode and everything in between <!--{.element class="grey"}-->
-2. <span class="hilite">**(LT2) Working with text: spellcheckers, grammar correctors, AI writing assistants**</span>
+2. <span class="hilite">**(LT2) Working with text: going above the level of character encoding**</span>
 3. (IM1) Formats for representing text: Markdown, XML and their uses
 4. (IM2) Managing data: JSON, YAML, relational databases, Semantic Web.
 
@@ -29,27 +29,27 @@ Multilingual software
 ---
 Revision
 ## What is character encoding?
-1. Something which assigns a unique numerical identfier to each character.
+1. Something which assigns a unique numerical identifier to each character.
 2. An algorithm for reducing a long string of text into a single number.
 3. A method for translating text from one language to another.
 
 ---
 Revision
-## Does ASCII contain the character `Ü`?
+## Does ASCII contain the character “ü”?
 1. Yes.
 2. No.
 
 ---
 Revision
-## Which characters does Unicode contain?
-1. All characters of all writing systems of the world.
-2. All characters not included in ASCII.
-3. All characters not included in ISO 8859-1.
+## Of all the characters of the all writing systems of the world, which characters does Unicode contain?
+1. Those not included in ASCII.
+2. Those not included in ISO 8859-1.
+3. All of them.
 
 ---
 Revision
 ## What is an *extended character*?
-1. A Latin character like `ü` and `ž`.
+1. A Latin character like **ü** and **ž**.
 2. A character from a non-Latin alphabet like Cyrillic and Greek.
 3. A character from a non-alphabetic writing systems like Chinese.
 
@@ -83,12 +83,13 @@ Revision
 ---
 Revision
 ## When you see `U+004C`, what are you probably looking at?
-1. The identifier of a Unicode codepoint (`004C` is its number in hexadecimal notation).
-2. The unique address of a computer connected to the Internet.
+2. The identifier of a Unicode codepoint.
+1. The address of character in ASCII.
+3. The unique address of a computer connected to the Internet.
 
 ---
 Revision
-## How many ways are there in Unicode for representing `ü`?
+## How many ways are there in Unicode for representing “ü”?
 1. One.
 2. Two.
 3. Infinitely many.
@@ -109,7 +110,7 @@ Revision
 ---
 340088-1 VO Sprachtechnologien, Informations- und Interfacedesign  
 Language technology lecture 2
-# Working with text: spellcheckers, grammar correctors, AI writing assistants
+# Working with text: going above the level of character encoding
 
 ---
 ## Plan for today
@@ -123,7 +124,6 @@ Language technology lecture 2
     - End-of-line word hyphenation
     - Right-to-left text
 2. Writing tools
-    - Autocorrect
     - Spellchecking
     - Grammar correction
     - AI writing assistants
@@ -189,8 +189,8 @@ Language technology lecture 2
 
 ---
 ## Lower-case, upper-case
-- Only exists in Latin, Cyrillic and Greek writing systems.
-- Some upper-casing/lower-casing rules are language-specific.
+- The concept of character case only exists in Latin, Cyrillic and Greek writing systems.
+- Some case-changing rules are language-specific.
 
 ---
 ## Example: upper-casing “i” (in most languages)
@@ -290,7 +290,7 @@ What if the next word doesn't fit on what remains of the line?
 </div>
 <div class="column centered">
 
-  ### 1’651.34
+  ### 1'651.34
 
 </div>
 
@@ -393,21 +393,26 @@ What if the next word doesn't fit on what remains of the line?
   - **Peter O’Sullivan**
 - Where is the surname?
   - **José Gómez Iglesias**
+  - **Иван Иванович Иванов** (Ivan Ivanovich Ivanov)
+  - **Miguel Angel Rios Gaona**
 - Is there a surname, even?
 
 ---
 ## Alphabetical sorting
-- English: **A → ... → Z**
-- Irish: **A → Á → ... → Z**
-- German: **A|Ä → ... → Z**
-- Swedish: **A → ... → Z → Å → Ä → Ö**
+- Latin alphabet
+  - English: **A → ... → Z**
+  - Irish: **A → Á → ... → Z**
+  - German: **A|Ä → ... → Z**
+  - Swedish: **A → ... → Z → Å → Ä → Ö**
+- Cyrillic, Greek, Arabic...
+- Chinese...
 
 ---
 ## Sortkeys
 ![](sortkey.gif)
 
 ---
-## Collation
+## *Collation*
 A set of rules for comparing and sorting strings of text
 - What is the order of characters?
 - Is it case-sensitive? (eg. **a = A**?)
@@ -417,4 +422,148 @@ A set of rules for comparing and sorting strings of text
 ## Language-specificity
 - To perform an operation on a string of text, the software (e.g. your word processor) needs to know **which language** the text is in.
 - Do not over-eagerly “correct” textual features if the text is in a language you don’t speak.
+
+---
+## Bidirectional text
+![](bidi.png) <!--{.element style="width: 800px"}-->
+
+---
+## Bidirectional text
+- U+200F Right-to-Left Mark
+- U+200E Left-to-Right Mark
+
+---
+## Plan for today
+1. Language-related issues when handling text on computers <!--{.element class="grey"}-->
+    - Punctuation <!--{.element class="grey"}-->
+    - Quotation marks <!--{.element class="grey"}-->
+    - Number and date formatting <!--{.element class="grey"}-->
+    - Capitalisation <!--{.element class="grey"}-->
+    - Names of people and things <!--{.element class="grey"}-->
+    - Alphabetical sorting <!--{.element class="grey"}-->
+    - End-of-line word hyphenation <!--{.element class="grey"}-->
+    - Right-to-left text <!--{.element class="grey"}-->
+2. Writing tools
+    - Spellchecking
+    - Grammar correction
+    - AI writing assistants
+
+---
+## Spellchecking
+![](spellcheck1.png) <!--{.element style="width: 100%"}-->
+
+---
+## Spellchecking
+![](spellcheck2a.png) <!--{.element style="width: 100%"}-->
+
+---
+## Spellchecking
+![](spellcheck2b.png) <!--{.element style="width: 100%"}-->
+
+---
+## Spellchecking
+- Checks each word against a “dictionary” of valid words.
+- Ignores syntax, semantics.
+  - Exception: context-aware spellchecking
+
+---
+## Grammar correction
+- Traditional rule-based approach:
+  - Checks sequences of words against known patterns
+  - Example: languagetool.org
+
+---
+## languagetool.org
+![](languagetool1.png) <!--{.element style="width: 100%"}-->
+
+---
+## languagetool.org
+![](languagetool2.png) <!--{.element style="width: 100%"}-->
+
+---
+## Example of a languagetool.org rule
+
+```xml
+<rule>
+    <pattern>
+        <token postag=".*ADJ.*KOM.*" postag_regexp="yes"/>
+        <marker>
+            <token>wie</token>
+        </marker>
+        <token>sonst</token>
+    </pattern>
+    <message>'\1 wie' ist umgangssprachlich. Verwenden Sie zum Ausdrücken von Ungleichheit <suggestion>als</suggestion>.</message>
+    <example correction="als">Er ist besser <marker>wie</marker> sonst.</example>
+</rule>
+```
+
+---
+## AI writing assistants
+![](deepl.png) <!--{.element style="width: 100%"}-->
+
+---
+## AI writing assistants
+![](grammarly.png) <!--{.element style="width: 100%"}-->
+
+---
+## AI writing assistants
+![](intlingua.png) <!--{.element style="width: 100%"}-->
+
+---
+## Trends in writing assistance tools
+- Two UI patterns
+  - Underline problematic stretches.
+  - Rewrite entire text + highlight differences. 
+- Merging of use-cases and technologies
+  - Users don’t care about the difference between spelling, grammar and style.
+  - Mixture of LLMs and traditional approaches (eg. rule-based grammar checking).
+- Multiple delivery channels
+  - Web-based apps.
+  - Plug-ins for desktop word processors.
+  - Plug-ins for web browsers.
+  - Plug-ins for cloud-based word processors.
+
+---
+## Plan for today
+1. Language-related issues when handling text on computers <!--{.element class="grey"}-->
+    - Punctuation <!--{.element class="grey"}-->
+    - Quotation marks <!--{.element class="grey"}-->
+    - Number and date formatting <!--{.element class="grey"}-->
+    - Capitalisation <!--{.element class="grey"}-->
+    - Names of people and things <!--{.element class="grey"}-->
+    - Alphabetical sorting <!--{.element class="grey"}-->
+    - End-of-line word hyphenation <!--{.element class="grey"}-->
+    - Right-to-left text <!--{.element class="grey"}-->
+2. Writing tools <!--{.element class="grey"}-->
+    - Spellchecking <!--{.element class="grey"}-->
+    - Grammar correction <!--{.element class="grey"}-->
+    - AI writing assistants <!--{.element class="grey"}-->
+
+---
+## Recommended reading
+
+Chapters 3–7 of ‘An Ríomhaire Ilteangach’ [The Multilingual Computer]  
+http://arit.lexiconista.com/arit/
+
+![book cover](arit.webp)
+
+---
+## Recommended reading
+
+Chapter 2 ‘Writers’ aids’ of ‘Language and computers’  
+https://langsci-press.org/catalog/book/454
+
+![book cover](book1.png)
+
+---
+## Recommended reading
+
+Chapter 3 ‘Schreibfehler automatisch korrigieren’ of ‘Künstliche Intelligenz verstehen: Eine spielerische Einführung’  
+https://www.rheinwerk-verlag.de/kuenstliche-intelligenz-verstehen-eine-spielerische-einfuehrung/
+
+![book cover](kiv.png)
+
+
+---
+## That’s it, see you next week!
 

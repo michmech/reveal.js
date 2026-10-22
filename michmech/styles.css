@@ -99,3 +99,7 @@ h3 {
 h3 + h3 {
   margin-top: -0.5em;
 }
+
+code {
+  line-height: 1.5em;
+}
