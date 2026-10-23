@@ -419,11 +419,6 @@ A set of rules for comparing and sorting strings of text
 - Is it accent-sensitive (eg. **A = Ä**?)
 
 ---
-## Language-specificity
-- To perform an operation on a string of text, the software (e.g. your word processor) needs to know **which language** the text is in.
-- Do not over-eagerly “correct” textual features if the text is in a language you don’t speak.
-
----
 ## Bidirectional text
 ![](bidi.png) <!--{.element style="width: 800px"}-->
 
@@ -449,6 +444,14 @@ A set of rules for comparing and sorting strings of text
     - AI writing assistants
 
 ---
+## Language-specific textual features
+- To perform an operation on a string of text, you and your software need to know:
+  - which language the text is in,
+  - which culture the text is from/for.
+- Awareness of language-specific textual features is a **transcultural communication** skill.
+  - Do not over-eagerly “correct” stuff.
+
+---
 ## Spellchecking
 ![](spellcheck1.png) <!--{.element style="width: 100%"}-->
 
@@ -462,15 +465,21 @@ A set of rules for comparing and sorting strings of text
 
 ---
 ## Spellchecking
+![](chrome.png) <!--{.element style="width: 100%"}-->
+
+---
+## Spellchecking
 - Checks each word against a “dictionary” of valid words.
-- Ignores syntax, semantics.
-  - Exception: context-aware spellchecking
+- Typically ignores syntax, semantics.
+- Typically available as a feature in your desktop software (word processor, web browser)
+  - The spellchecking happens locally on your own computer.
 
 ---
 ## Grammar correction
 - Traditional rule-based approach:
   - Checks sequences of words against known patterns
-  - Example: languagetool.org
+  - Recently often augmented with “AI”
+- Example: [languagetool.org](https://languagetool.org)
 
 ---
 ## languagetool.org
@@ -496,6 +505,14 @@ A set of rules for comparing and sorting strings of text
     <example correction="als">Er ist besser <marker>wie</marker> sonst.</example>
 </rule>
 ```
+
+---
+## Grammar correction
+- Often available as a feature in your desktop software (word processor)
+- Or as a separate product
+  - Web-based app
+  - Plug-in for your desktop software (word processor, web browser)
+  - Rarely: dedicated desktop app
 
 ---
 ## AI writing assistants
