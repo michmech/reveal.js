@@ -96,6 +96,14 @@ Writing tools
 ---
 ## Recommended reading
 
+Chapter 7 of ‘An Ríomhaire Ilteangach’ [The Multilingual Computer]  
+http://arit.lexiconista.com/arit/
+
+![book cover](arit.webp)
+
+---
+## Recommended reading
+
 Chapter 2 ‘Writers’ aids’ of ‘Language and computers’  
 https://langsci-press.org/catalog/book/454
 

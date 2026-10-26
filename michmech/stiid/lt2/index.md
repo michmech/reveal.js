@@ -446,7 +446,7 @@ Language-related issues when handling text on computers <!--{.element class="gre
 ---
 ## Recommended reading
 
-Chapters 3–7 of ‘An Ríomhaire Ilteangach’ [The Multilingual Computer]  
+Chapters 3–6 of ‘An Ríomhaire Ilteangach’ [The Multilingual Computer]  
 http://arit.lexiconista.com/arit/
 
 ![book cover](arit.webp)
