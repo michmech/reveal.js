@@ -29,7 +29,7 @@ Multilingual software
 ---
 Revision
 ## What is character encoding?
-1. Something which assigns a unique numerical identifier to each character.
+1. Something which assigns a unique numerical identifier to every character.
 2. An algorithm for reducing a long string of text into a single number.
 3. A method for translating text from one language to another.
 
@@ -41,7 +41,7 @@ Revision
 
 ---
 Revision
-## Of all the characters of the all writing systems of the world, which characters does Unicode contain?
+## Of all the characters of all the writing systems of the world, which characters does Unicode contain?
 1. Those not included in ASCII.
 2. Those not included in ISO 8859-1.
 3. All of them.
@@ -114,19 +114,15 @@ Language technology lecture 2
 
 ---
 ## Plan for today
-1. Language-related issues when handling text on computers
-    - Punctuation
-    - Quotation marks
-    - Number and date formatting
-    - Capitalisation
-    - Names of people and things
-    - Alphabetical sorting
-    - End-of-line word hyphenation
-    - Right-to-left text
-2. Writing tools
-    - Spellchecking
-    - Grammar correction
-    - AI writing assistants
+Language-related issues when handling text on computers
+  - Punctuation
+  - Quotation marks
+  - Number and date formatting
+  - Capitalisation
+  - Names of people and things
+  - Alphabetical sorting
+  - End-of-line word hyphenation
+  - Right-to-left text
 
 ---
 ## The Latin alphabet from language to language
@@ -429,19 +425,15 @@ A set of rules for comparing and sorting strings of text
 
 ---
 ## Plan for today
-1. Language-related issues when handling text on computers <!--{.element class="grey"}-->
-    - Punctuation <!--{.element class="grey"}-->
-    - Quotation marks <!--{.element class="grey"}-->
-    - Number and date formatting <!--{.element class="grey"}-->
-    - Capitalisation <!--{.element class="grey"}-->
-    - Names of people and things <!--{.element class="grey"}-->
-    - Alphabetical sorting <!--{.element class="grey"}-->
-    - End-of-line word hyphenation <!--{.element class="grey"}-->
-    - Right-to-left text <!--{.element class="grey"}-->
-2. Writing tools
-    - Spellchecking
-    - Grammar correction
-    - AI writing assistants
+Language-related issues when handling text on computers <!--{.element class="grey"}-->
+  - Punctuation <!--{.element class="grey"}-->
+  - Quotation marks <!--{.element class="grey"}-->
+  - Number and date formatting <!--{.element class="grey"}-->
+  - Capitalisation <!--{.element class="grey"}-->
+  - Names of people and things <!--{.element class="grey"}-->
+  - Alphabetical sorting <!--{.element class="grey"}-->
+  - End-of-line word hyphenation <!--{.element class="grey"}-->
+  - Right-to-left text <!--{.element class="grey"}-->
 
 ---
 ## Language-specific textual features
@@ -452,134 +444,12 @@ A set of rules for comparing and sorting strings of text
   - Do not over-eagerly “correct” stuff.
 
 ---
-## Spellchecking
-![](spellcheck1.png) <!--{.element style="width: 100%"}-->
-
----
-## Spellchecking
-![](spellcheck2a.png) <!--{.element style="width: 100%"}-->
-
----
-## Spellchecking
-![](spellcheck2b.png) <!--{.element style="width: 100%"}-->
-
----
-## Spellchecking
-![](chrome.png) <!--{.element style="width: 100%"}-->
-
----
-## Spellchecking
-- Checks each word against a “dictionary” of valid words.
-- Typically ignores syntax, semantics.
-- Typically available as a feature in your desktop software (word processor, web browser)
-  - The spellchecking happens locally on your own computer.
-
----
-## Grammar correction
-- Traditional rule-based approach:
-  - Checks sequences of words against known patterns
-  - Recently often augmented with “AI”
-- Example: [languagetool.org](https://languagetool.org)
-
----
-## languagetool.org
-![](languagetool1.png) <!--{.element style="width: 100%"}-->
-
----
-## languagetool.org
-![](languagetool2.png) <!--{.element style="width: 100%"}-->
-
----
-## Example of a languagetool.org rule
-
-```xml
-<rule>
-    <pattern>
-        <token postag=".*ADJ.*KOM.*" postag_regexp="yes"/>
-        <marker>
-            <token>wie</token>
-        </marker>
-        <token>sonst</token>
-    </pattern>
-    <message>'\1 wie' ist umgangssprachlich. Verwenden Sie zum Ausdrücken von Ungleichheit <suggestion>als</suggestion>.</message>
-    <example correction="als">Er ist besser <marker>wie</marker> sonst.</example>
-</rule>
-```
-
----
-## Grammar correction
-- Often available as a feature in your desktop software (word processor)
-- Or as a separate product
-  - Web-based app
-  - Plug-in for your desktop software (word processor, web browser)
-  - Rarely: dedicated desktop app
-
----
-## AI writing assistants
-![](deepl.png) <!--{.element style="width: 100%"}-->
-
----
-## AI writing assistants
-![](grammarly.png) <!--{.element style="width: 100%"}-->
-
----
-## AI writing assistants
-![](intlingua.png) <!--{.element style="width: 100%"}-->
-
----
-## Trends in writing assistance tools
-- Two UI patterns
-  - Underline problematic stretches.
-  - Rewrite entire text + highlight differences. 
-- Merging of use-cases and technologies
-  - Users don’t care about the difference between spelling, grammar and style.
-  - Mixture of LLMs and traditional approaches (eg. rule-based grammar checking).
-- Multiple delivery channels
-  - Web-based apps.
-  - Plug-ins for desktop word processors.
-  - Plug-ins for web browsers.
-  - Plug-ins for cloud-based word processors.
-
----
-## Plan for today
-1. Language-related issues when handling text on computers <!--{.element class="grey"}-->
-    - Punctuation <!--{.element class="grey"}-->
-    - Quotation marks <!--{.element class="grey"}-->
-    - Number and date formatting <!--{.element class="grey"}-->
-    - Capitalisation <!--{.element class="grey"}-->
-    - Names of people and things <!--{.element class="grey"}-->
-    - Alphabetical sorting <!--{.element class="grey"}-->
-    - End-of-line word hyphenation <!--{.element class="grey"}-->
-    - Right-to-left text <!--{.element class="grey"}-->
-2. Writing tools <!--{.element class="grey"}-->
-    - Spellchecking <!--{.element class="grey"}-->
-    - Grammar correction <!--{.element class="grey"}-->
-    - AI writing assistants <!--{.element class="grey"}-->
-
----
 ## Recommended reading
 
 Chapters 3–7 of ‘An Ríomhaire Ilteangach’ [The Multilingual Computer]  
 http://arit.lexiconista.com/arit/
 
 ![book cover](arit.webp)
-
----
-## Recommended reading
-
-Chapter 2 ‘Writers’ aids’ of ‘Language and computers’  
-https://langsci-press.org/catalog/book/454
-
-![book cover](book1.png)
-
----
-## Recommended reading
-
-Chapter 3 ‘Schreibfehler automatisch korrigieren’ of ‘Künstliche Intelligenz verstehen: Eine spielerische Einführung’  
-https://www.rheinwerk-verlag.de/kuenstliche-intelligenz-verstehen-eine-spielerische-einfuehrung/
-
-![book cover](kiv.png)
-
 
 ---
 ## That’s it, see you next week!
