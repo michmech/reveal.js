@@ -28,6 +28,80 @@ Multilingual software
 11. (UI3) Managing multilingual websites: pitfalls to avoid on the multilingual web
 
 ---
+Revision
+## Falsehoods programmers believe about languages
+https://www.lexiconista.com/falsehoods-about-languages/
+---
+Falsehoods programmers believe about languages
+## The lower-case/upper-case distinction exists in all languages.
+---
+Falsehoods programmers believe about languages
+## For every lower-case character, there is exactly one (language-independent) upper-case character, and vice versa.
+---
+Turkish:
+- **i** → **İ**
+- **ı** → **I**
+---
+Falsehoods programmers believe about languages
+## When a placename, the name of an institutions or any other name contains more than one word, it is written in Title Case such that each word begins with an upper-case character.
+---
+- Czech: Evropská unie
+- French: Union européenne
+- English: Office of the Ombudsman
+---
+Falsehoods programmers believe about languages
+## When words are to be converted into Title Case, it is always the first character of the word that needs to be capitalized, in all languages.
+---
+Dutch:
+- IJsselmeer
+- IJmuiden
+
+Irish:
+- Bóthar na bhFál
+- An tAontas Eorpach
+---
+Falsehoods programmers believe about languages
+## Each language is written in exactly one alphabet.
+---
+Falsehoods programmers believe about languages
+## All languages (that use the Latin alphabet) have the same alphabetical sorting order.
+---
+- In Swedish, Ä comes at the end of the alphabet, after Z.
+
+- In German, Ä is sorted as if it were AE: München comes between Mud and Muf as if it were written Muenchen
+---
+Falsehoods programmers believe about languages
+## All languages are written from left to right.
+---
+Falsehoods programmers believe about languages
+## Every language puts spaces between words.
+---
+Falsehoods programmers believe about languages
+## No language puts spaces before question marks and exclamation marks at the end of a sentence.
+---
+Falsehoods programmers believe about languages
+## Questions marks and exclamation marks always appear at the end of the sentence.
+---
+Spanish:
+- ¿Dónde está tu chaqueta?
+- ¡Qué buena idea!
+- Tengo galletas, ¿quieres una?
+---
+Falsehoods programmers believe about languages
+## No language puts spaces after opening quotes and before closing quotes.
+---
+Falsehoods programmers believe about languages
+## All languages use the same characters for opening quotes and closing quotes.
+---
+Falsehoods programmers believe about languages
+## Numbers, when written out in digits, are formatted and punctuated the same way in all languages.
+
+---
+340088-1 VO Sprachtechnologien, Informations- und Interfacedesign  
+Language technology lecture 2A
+# From spellcheckers to AI writing assistants
+
+---
 ## Plan for today
 - Spellchecking
 - Grammar correction
