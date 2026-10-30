@@ -221,19 +221,14 @@ SFX A   0       es         [^e]
 ```
 
 ---
-## What looking inside a spellchecker teaches us (1/2)
-The difference between
-- the base form of a word
-    - called the *root*, the *stem* or the *lemma*
-- and all other forms of the word
-    - called *word forms* or *tokens*
-
-Example:
-- "hübsch" → "hübsche", "hübscher", "hübschen", "hübschem", "hübsches"
+## NLP concepts behind spellchecking
+- word splitting, tokenisation
+- distinction between:
+  - the base form of a word (the *root*, the *stem*, the *lemma*) 
+  - all other (inflected) forms of the word (the *word forms*, the *tokens*)
 
 ---
-## What looking inside a spellchecker teaches us (2/2)
-Regular expressions ("Regex")
+## Sidenote: regular expressions ("regex")
 - For finding strings of text that match a pattern
 - Often available in the search features of a word processors etc.  
 
@@ -296,6 +291,13 @@ A good tutorial:
   - Rarely: dedicated desktop app
 
 ---
+## NLP concepts behind grammar checking
+- tokenisation, word splitting
+- sentence splitting
+- part-of-speech tagging
+- syntactical parsing
+
+---
 ## AI writing assistants
 ![](deepl.png) <!--{.element style="width: 100%"}-->
 
@@ -310,6 +312,12 @@ A good tutorial:
 ---
 ## AI writing assistants
 ![](intlingua.png) <!--{.element style="width: 100%"}-->
+
+---
+## NLP concepts behind grammar checking
+- Language modelling
+  - You need a large language model (LLM) which is able to "understand" text almost like a human would
+      - Able to generate other ways of expressing the same meaning 
 
 ---
 ## Trends in writing assistance tools
