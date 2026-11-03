@@ -103,3 +103,22 @@ h3 + h3 {
 code {
   line-height: 1.5em;
 }
+
+pre {
+  background-color: #f6f6f6;
+  padding: 10px;
+}
+
+blockquote {
+  background-color: #f6f6f6;
+  padding: 10px;
+  margin: 0;
+}
+blockquote h1 {
+  font-weight: normal;
+  font-size: 1.5em;
+}
+blockquote h2 {
+  font-weight: normal;
+  font-size: 1.1em;
+}
