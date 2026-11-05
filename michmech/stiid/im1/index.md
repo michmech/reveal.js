@@ -1,6 +1,6 @@
 340088-1 VO Sprachtechnologien, Informations- und Interfacedesign  
 Information management lecture 1
-# Formats for representing text: from plain text to XML
+# Formats for structuring text: from plain text to XML
 
 ---
 ## We are here
@@ -11,7 +11,7 @@ Foundational technologies
 1. (LT1) How computers represent characters: ASCII, Unicode and everything in between <!--{.element class="grey"}-->
 2. (LT2) Working with text: going above the level of character encoding <!--{.element class="grey"}-->
     <div>(LT2A) From spellcheckers to AI writing assistants</div>
-3. <span class="hilite">**(IM1) Formats for representing text: from plain text to XML**</span>
+3. <span class="hilite">**(IM1) Formats for structuring text: from plain text to XML**</span>
 4. (IM2) Managing data: JSON, YAML, relational databases, Semantic Web.
 
 A dive into NLP and AI
@@ -106,7 +106,7 @@ for any last-minute event updates or scheduling changes.
 ---
 ## Working with Markdown
 - You can use any plain text editor
-- Many specialised Markdown editors exist (eg. Obsidian)
+- Many specialised Markdown editors exist (eg. [Obsidian](https://obsidian.md/))
   - Syntax highlighting
   - Keyboard shortcuts
   - Export to PDF, HTML...
@@ -120,14 +120,14 @@ for any last-minute event updates or scheduling changes.
 ## What else do you need to know about Markdown?
 - Created by John Gruber in 2004
 - Not strictly standardised, many different flavours exist
-  - Github-Flavoured Markdown (GFM)
-  - CommonMark
+  - [Github-Flavoured Markdown](https://github.blog/engineering/user-experience/a-formal-spec-for-github-markdown/) (GFM)
+  - [CommonMark](https://commonmark.org/)
   - etc.
 
 ---
 ## Markdown competitors
-- reStructuredText
-- AsciiDoc
+- [reStructuredText](https://docutils.sourceforge.io/rst.html)
+- [AsciiDoc](https://asciidoc.org/)
 - etc.
 
 ---
@@ -139,7 +139,7 @@ for any last-minute event updates or scheduling changes.
 ```
 \begin{document}
 
-\section*{Weekend Trip to Salzburg}
+\section{Weekend Trip to Salzburg}
 
 We are planning a quick \textbf{three-day getaway) to explore the historic old town
 of \textit{Salzburg}. The weather forecast predicts light rain, so we need to pack accordingly. 
@@ -147,7 +147,7 @@ of \textit{Salzburg}. The weather forecast predicts light rain, so we need to pa
 Remember to check the \href{https://salzburg.info}{Salzburg Tourism Board} for any
 last-minute event updates or scheduling changes.
 
-\subsection*{To-Do List Before Leaving}
+\subsection{To-Do List Before Leaving}
 
 \begin{itemize}
     \item Book the train tickets online.
@@ -179,7 +179,7 @@ last-minute event updates or scheduling changes.
 - Complex tooling
   - Installing/managing plug-ins etc.
   - Producing PDFs 
-- Specialised LaTeX editors exist (eg. Overleaf)
+- Specialised LaTeX editors exist (eg. [Overleaf](https://www.overleaf.com/))
   - Syntax highlighting
   - Keyboard shortcuts
   - Export to PDF, HTML...
@@ -259,6 +259,96 @@ last-minute event updates or scheduling changes.
       <listItem>Water the apartment plants.</listItem>
     </bullettedList>
 </document>
+```
+
+---
+## Custom inline markup
+
+```
+<biography>
+  James MacAdam (1801–1861), manufacturer and geologist,
+  was born in High Street, Belfast, the first child and
+  the elder of two surviving sons of James MacAdam
+  (1775–1821), merchant, and Jane MacAdam (née Shipboy)
+  (1774–1827), a Belfast native. Two siblings died in
+  infancy while a...
+</biography>
+```
+
+---
+## Custom inline markup
+
+```
+<biography>
+  <person>James MacAdam</person> (1801–1861), manufacturer and geologist,
+  was born in High Street, Belfast, the first child and
+  the elder of two surviving sons of <person>James MacAdam</person>
+  (1775–1821), merchant, and <person>Jane MacAdam (née Shipboy)</person>
+  (1774–1827), a Belfast native. Two siblings died in
+  infancy while a...
+</biography>
+```
+
+---
+## Custom inline markup
+
+```
+<biography>
+  <person id="5634">James MacAdam</person> (1801–1861), manufacturer and geologist,
+  was born in High Street, Belfast, the first child and
+  the elder of two surviving sons of <person id="6542">James MacAdam</person>
+  (1775–1821), merchant, and <person id="9832">Jane MacAdam (née Shipboy)</person>
+  (1774–1827), a Belfast native. Two siblings died in
+  infancy while a...
+</biography>
+```
+
+---
+## Custom inline markup
+
+```
+<biography>
+  <person id="5634">James MacAdam</person> (1801–1861), manufacturer and geologist,
+  was born in High Street, <place id="BLF">Belfast</place>, the first child and
+  the elder of two surviving sons of <person id="6542">James MacAdam</person>
+  (1775–1821), merchant, and <person id="9832">Jane MacAdam (née Shipboy)</person>
+  (1774–1827), a Belfast native. Two siblings died in
+  infancy while a...
+</biography>
+```
+
+---
+## Non-typical content
+
+> **Taylor:** Is this it?  
+> **Sam** *(Without looking up):* Depends what you're looking for.  
+> **Taylor** *(Sighs, drops backpack with a heavy thud):* How long have you been here?  
+> **Sam:** Time gets slippery under fluorescent lights.
+
+---
+## Non-typical content
+
+```
+<play>
+  <turn>
+    <character>Taylor</character>
+    <speech>Is this it?</speech>
+  <turn>
+  <turn>
+    <character>Sam</character>
+    <action>Without looking up</action>
+    <speech>Depends what you're looking for.</speech>
+  <turn>
+  <turn>
+    <character>Taylor</character>
+    <action>Sighs, drops backpack with a heavy thud</action>
+    <speech>How long have you been here?</speech>
+  <turn>
+  <turn>
+    <character>Sam</character>
+    <speech>Time gets slippery under fluorescent lights.</speech>
+  <turn>
+</play>
 ```
 
 ---
@@ -420,9 +510,15 @@ Think about this
 
 ---
 ## The anatomy of XML
-(opening tag, closing tag, element)
-(attribute name, attribute value)
-(parent element, child element)
+![](001.png) <!--{.element style="width: 100%"}-->
+
+---
+## The anatomy of XML
+![](002.png) <!--{.element style="width: 100%"}-->
+
+---
+## The anatomy of XML
+![](003.png) <!--{.element style="width: 100%"}-->
 
 ---
 ## The rules of XML
@@ -445,7 +541,7 @@ Think about this
 
 ---
 ## The tree structure of XML
-(diagram)
+![](004.png) <!--{.element style="width: 100%"}-->
 
 ---
 ## XML schema
@@ -473,11 +569,67 @@ Think about this
 
 ---
 ## Popular XML schemas for structuring text
-- Open Document Format
-- Office Open XML
+- Open Document Format (OpenOffice, LibreOffice)
+- Office Open XML (Microsoft Word)
 - DocBook
 - TEI
 - (HTML)
+
+---
+## DocBook
+
+```
+<book>
+  <info>
+    <title>The Minimalist Guide to Vienna</title>
+  </info>
+
+  <chapter>
+    <title>Your first week in Vienna</title>
+    <para>This is the first chapter of the book. It introduces...</para>
+    <section>
+      <title>Finding a place to live</title>
+      <para>This is a section explaining how to...</para>
+    </section>
+  </chapter>
+
+  <chapter>
+    <title>Beyond your first week</title>
+    <para>This chapter dives deeper into....</para>
+  </chapter>
+</book>
+```
+
+---
+## TEI (Text Encoding Initiative)
+
+```
+<TEI>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>The Minimalist Guide to Vienna</title>
+      </titleStmt>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="chapter">
+        <head>Your first week in Vienna</head>
+        <p>This is the first chapter of the book. It introduces...</p>
+        <div type="section">
+          <head>Finding a place to live</head>
+          <p>This is a section explaining how to...</p>
+        </div>
+      </div>
+      <div type="chapter">
+        <head>Beyond your first week</head>
+        <p>This chapter dives deeper into...</p>
+      </div>
+    </body>
+  </text>
+</TEI>
+```
 
 ---
 ## HTML (Hypertext Markup Language)
@@ -498,5 +650,120 @@ Think about this
 ## XML schemas common in the language industry
 - TMX (Translation Memory Exchange)
 - TBX (Termbase Exchange)
-- XLIFF (XML Localization Interchange File Format))
+- XLIFF (XML Localization Interchange File Format)
+
+---
+## TMX (Translation Memory Exchange)
+
+```
+<tmx version="1.4">
+  <body>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Hello World!</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Hallo, Welt!</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>
+```
+
+---
+## TBX (Termbase Exchange)
+
+```
+<tbx type="TBX-Basic" style="dca">
+  <body>
+    <termEntry id="c1">
+      <descrip type="definition">
+        A biological process for converting
+        light energy into chemical energy.
+      </descrip>
+      <langSet xml:lang="en">
+        <tig>
+          <term>photosynthesis</term>
+          <termNote type="partOfSpeech">noun</termNote>
+        </tig>
+      </langSet>
+      <langSet xml:lang="de">
+        <tig>
+          <term>Photosynthese</term>
+          <termNote type="partOfSpeech">noun</termNote>
+          <termNote type="gender">feminine</termNote>
+        </tig>
+      </langSet>
+    </termEntry>
+  </body>
+</tbx>
+```
+
+---
+## XLIFF (XML Localization Interchange File Format)
+
+```
+<xliff version="2.0" srcLang="en" trgLang="de">
+  <file id="f1">
+    <unit id="u1">
+      <segment>
+        <source>File saved successfully.</source>
+        <target>Datei erfolgreich gespeichert.</target>
+      </segment>
+    </unit>
+    <unit id="u2">
+      <segment>
+        <source>Cancel</source>
+        <target>Abbrechen</target>
+      </segment>
+    </unit>
+  </file>
+</xliff>
+```
+
+---
+## Plan for today
+- Plain text
+- Adding structure and/or formatting to plain text  
+  - Markdown
+  - LaTeX
+  - XML
+    - Popular XML schemas:  
+      Open Document Format, Office Open XML, DocBook, TEI, (HTML)
+    - XML schemas common in the language industry:  
+      TMX, TBX, XLIFF
+
+---
+## Recommended further reading
+- Markdown
+  - ‘Markdown Tutorial’ https://www.markdowntutorial.com/
+  - ‘Markdown Guide’ https://www.markdownguide.org/
+- XML
+  - ‘A Gentle Introduction to XML’ https://www.tei-c.org/release/doc/tei-p5-doc/en/html/SG.html
+  - ‘What is XML and why should humanists care? An even gentler introduction to XML’ https://dh.obdurodon.org/what-is-xml.xhtml
+
+---
+## We are here
+0. Introductory lecture <!--{.element class="grey"}-->
+
+Foundational technologies
+
+1. (LT1) How computers represent characters: ASCII, Unicode and everything in between <!--{.element class="grey"}-->
+2. (LT2) Working with text: going above the level of character encoding <!--{.element class="grey"}-->
+    <div>(LT2A) From spellcheckers to AI writing assistants</div>
+3. (IM1) Formats for structuring text: from plain text to XML <!--{.element class="grey"}-->
+4. (IM2) Managing data: JSON, YAML, relational databases, Semantic Web.
+
+A dive into NLP and AI
+
+5. (LT3) Intro to Natural Language Processing (NLP): tagging, parsing and their applications
+6. (LT4) Understanding the technology behind NLP: language models, vectors, word embeddings
+7. (LT5) Large Language Models (LLMs): understanding how they do what they do
+
+Multilingual software
+
+8. (UI1) Understanding user interfaces: what designing a good user experience is about
+9. (UI2) Software localisation and globalisation: the challenge of translating on-screen text
+10. (IM3) Understanding Internet technology: how the Internet works under the hood
+11. (UI3) Managing multilingual websites: pitfalls to avoid on the multilingual web
 
