@@ -333,21 +333,21 @@ last-minute event updates or scheduling changes.
   <turn>
     <character>Taylor</character>
     <speech>Is this it?</speech>
-  <turn>
+  </turn>
   <turn>
     <character>Sam</character>
     <action>Without looking up</action>
     <speech>Depends what you're looking for.</speech>
-  <turn>
+  </turn>
   <turn>
     <character>Taylor</character>
     <action>Sighs, drops backpack with a heavy thud</action>
     <speech>How long have you been here?</speech>
-  <turn>
+  </turn>
   <turn>
     <character>Sam</character>
     <speech>Time gets slippery under fluorescent lights.</speech>
-  <turn>
+  </turn>
 </play>
 ```
 
