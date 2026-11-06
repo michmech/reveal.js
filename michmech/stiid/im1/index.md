@@ -141,7 +141,7 @@ for any last-minute event updates or scheduling changes.
 
 \section{Weekend Trip to Salzburg}
 
-We are planning a quick \textbf{three-day getaway) to explore the historic old town
+We are planning a quick \textbf{three-day getaway} to explore the historic old town
 of \textit{Salzburg}. The weather forecast predicts light rain, so we need to pack accordingly. 
 
 Remember to check the \href{https://salzburg.info}{Salzburg Tourism Board} for any
