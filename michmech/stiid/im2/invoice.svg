@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="210mm" height="297mm" viewBox="0 0 794 1123" role="img" aria-labelledby="title desc">
+<title id="title">Invoice INV-2026-0842</title>
+<desc id="desc">A4 invoice with supplier and customer addresses, dates, payment status, an itemised table, and total in euros.</desc>
+<rect x="0" y="0" width="794" height="1123" fill="#ffffff"/>
+<rect x="56" y="62" width="682" height="3" fill="#18252c"/>
+<text x="56" y="128" font-family="DejaVu Sans, sans-serif" font-size="52" font-weight="700" fill="#18252c" text-anchor="start" letter-spacing="0">Invoice</text>
+<text x="58" y="159" font-family="DejaVu Sans, sans-serif" font-size="19" font-weight="400" fill="#4d5d63" text-anchor="start" letter-spacing="0">INV-2026-0842</text>
+<text x="738" y="119" font-family="DejaVu Sans, sans-serif" font-size="11" font-weight="700" fill="#4d5d63" text-anchor="end" letter-spacing="1.2">PAYMENT STATUS</text>
+<text x="738" y="149" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="700" fill="#18252c" text-anchor="end" letter-spacing="0">Unpaid</text>
+<path d="M56 185 H738" stroke="#ccd4d6" fill="none"/>
+<text x="56" y="218" font-family="DejaVu Sans, sans-serif" font-size="11" font-weight="700" fill="#4d5d63" text-anchor="start" letter-spacing="1.2">SUPPLIER</text>
+<text x="409" y="218" font-family="DejaVu Sans, sans-serif" font-size="11" font-weight="700" fill="#4d5d63" text-anchor="start" letter-spacing="1.2">BILL TO</text>
+<text x="56" y="246" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="700" fill="#18252c" text-anchor="start" letter-spacing="0">AlpenTech Solutions GmbH</text>
+<text x="56" y="271" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="400" fill="#4d5d63" text-anchor="start" letter-spacing="0">Mariahilfer Straße 45</text>
+<text x="56" y="293" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="400" fill="#4d5d63" text-anchor="start" letter-spacing="0">1060 Vienna</text>
+<text x="56" y="315" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="400" fill="#4d5d63" text-anchor="start" letter-spacing="0">Austria</text>
+<text x="56" y="337" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="400" fill="#4d5d63" text-anchor="start" letter-spacing="0">billing@alpentech.at</text>
+<text x="409" y="246" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="700" fill="#18252c" text-anchor="start" letter-spacing="0">Nordic Design Studio AB</text>
+<text x="409" y="271" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="400" fill="#4d5d63" text-anchor="start" letter-spacing="0">Drottninggatan 18</text>
+<text x="409" y="293" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="400" fill="#4d5d63" text-anchor="start" letter-spacing="0">111 51 Stockholm</text>
+<text x="409" y="315" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="400" fill="#4d5d63" text-anchor="start" letter-spacing="0">Sweden</text>
+<text x="409" y="337" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="400" fill="#4d5d63" text-anchor="start" letter-spacing="0">Astrid Lindqvist</text>
+<path d="M56 365 H738" stroke="#ccd4d6" fill="none"/>
+<text x="56" y="397" font-family="DejaVu Sans, sans-serif" font-size="11" font-weight="700" fill="#4d5d63" text-anchor="start" letter-spacing="1.2">ISSUE DATE</text>
+<text x="56" y="425" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="700" fill="#18252c" text-anchor="start" letter-spacing="0">2026-11-11</text>
+<text x="292" y="397" font-family="DejaVu Sans, sans-serif" font-size="11" font-weight="700" fill="#4d5d63" text-anchor="start" letter-spacing="1.2">DUE DATE</text>
+<text x="292" y="425" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="700" fill="#18252c" text-anchor="start" letter-spacing="0">2026-12-11</text>
+<text x="528" y="397" font-family="DejaVu Sans, sans-serif" font-size="11" font-weight="700" fill="#4d5d63" text-anchor="start" letter-spacing="1.2">CURRENCY</text>
+<text x="528" y="425" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="700" fill="#18252c" text-anchor="start" letter-spacing="0">EUR</text>
+<rect x="56" y="471" width="682" height="44" fill="#18252c"/>
+<text x="70" y="498" font-family="DejaVu Sans, sans-serif" font-size="11" font-weight="700" fill="#ffffff" text-anchor="start" letter-spacing="1">DESCRIPTION</text>
+<text x="460" y="498" font-family="DejaVu Sans, sans-serif" font-size="11" font-weight="700" fill="#ffffff" text-anchor="end" letter-spacing="1">QTY</text>
+<text x="595" y="498" font-family="DejaVu Sans, sans-serif" font-size="11" font-weight="700" fill="#ffffff" text-anchor="end" letter-spacing="1">UNIT PRICE</text>
+<text x="724" y="498" font-family="DejaVu Sans, sans-serif" font-size="11" font-weight="700" fill="#ffffff" text-anchor="end" letter-spacing="1">AMOUNT</text>
+<rect x="56" y="515" width="682" height="60" fill="#f3f5f5"/>
+<text x="70" y="551" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="400" fill="#18252c" text-anchor="start" letter-spacing="0">Wireless Mechanical Keyboard</text>
+<text x="460" y="551" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="400" fill="#18252c" text-anchor="end" letter-spacing="0">3</text>
+<text x="595" y="551" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="400" fill="#18252c" text-anchor="end" letter-spacing="0">110.00</text>
+<text x="724" y="551" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="400" fill="#18252c" text-anchor="end" letter-spacing="0">330.00</text>
+<text x="70" y="611" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="400" fill="#18252c" text-anchor="start" letter-spacing="0">27-inch 4K Monitor</text>
+<text x="460" y="611" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="400" fill="#18252c" text-anchor="end" letter-spacing="0">2</text>
+<text x="595" y="611" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="400" fill="#18252c" text-anchor="end" letter-spacing="0">325.50</text>
+<text x="724" y="611" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="400" fill="#18252c" text-anchor="end" letter-spacing="0">651.00</text>
+<rect x="56" y="635" width="682" height="60" fill="#f3f5f5"/>
+<text x="70" y="671" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="400" fill="#18252c" text-anchor="start" letter-spacing="0">USB-C Docking Station</text>
+<text x="460" y="671" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="400" fill="#18252c" text-anchor="end" letter-spacing="0">3</text>
+<text x="595" y="671" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="400" fill="#18252c" text-anchor="end" letter-spacing="0">85.00</text>
+<text x="724" y="671" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="400" fill="#18252c" text-anchor="end" letter-spacing="0">255.00</text>
+<path d="M56 695 H738" stroke="#ccd4d6" fill="none"/>
+<rect x="408" y="729" width="330" height="88" fill="#edf1f1"/>
+<text x="426" y="779" font-family="DejaVu Sans, sans-serif" font-size="12" font-weight="700" fill="#4d5d63" text-anchor="start" letter-spacing="1">TOTAL DUE</text>
+<text x="720" y="782" font-family="DejaVu Sans, sans-serif" font-size="25" font-weight="700" fill="#18252c" text-anchor="end" letter-spacing="0">EUR 1,236.00</text>
+</svg>

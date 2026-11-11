@@ -1,0 +1,1164 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="4620.3901"
+   height="440.29413"
+   viewBox="0 0 4620.3901 440.29413"
+   role="img"
+   aria-labelledby="title desc"
+   version="1.1"
+   id="svg76"
+   sodipodi:docname="invoice-tree.svg"
+   inkscape:version="1.4.4 (dcaf3e7d9e, 2026-05-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <defs
+     id="defs76" />
+  <sodipodi:namedview
+     id="namedview76"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="0.68"
+     inkscape:cx="4563.9706"
+     inkscape:cy="141.91176"
+     inkscape:window-width="1600"
+     inkscape:window-height="797"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg76" />
+  <title
+     id="title">A YAML document as a tree</title>
+  <desc
+     id="desc">A monochrome tree of the invoice YAML. The items sequence branches into three indexed entries. Each horizontal row represents one level of nesting.</desc>
+  <rect
+     width="4620.3901"
+     height="440.29413"
+     fill="#ffffff"
+     id="rect1"
+     x="0"
+     y="0"
+     style="stroke-width:0.999998" />
+  <path
+     d="m 2308.7247,86.294119 v 22.000001 m -2233.000012,0 H 4541.7247 m -4466.000012,0 v 22 m 154.000002,-22 v 22 m 154,-22 v 22 m 154,-22 v 22 m 154,-22 v 22 m 539.00001,-22 v 22 m 924,-22 v 22 m 1386,-22 v 22 m 1001,-22 v 22 m -3311,66 v 22 m -385.00001,0 h 539.00001 m -539.00001,0 v 22 m 154,-22 v 22 m 385.00001,-22 v 22 m 0,66 v 22 m -231,0 h 462 m -462,0 v 22 m 154,-22 v 22 m 154,-22 v 22 m 154,-22 v 22 m 539,-154 v 22 m -385,0 h 539 m -539,0 v 22 m 154,-22 v 22 m 385,-22 v 22 m 0,66 v 22 m -231,0 h 462 m -462,0 v 22 m 154,-22 v 22 m 154,-22 v 22 m 154,-22 v 22 m 1001,-154 v 22 m -616,0 h 1232 m -1232,0 v 22 m 616,-22 v 22 m 616,-22 v 22 m -1232,66 v 22 m -231,0 h 462 m -462,0 v 22 m 154,-22 v 22 m 154,-22 v 22 m 154,-22 v 22 m 385,-44 v 22 m -231,0 h 462 m -462,0 v 22 m 154,-22 v 22 m 154,-22 v 22 m 154,-22 v 22 m 385,-44 v 22 m -231,0 h 462 m -462,0 v 22 m 154,-22 v 22 m 154,-22 v 22 m 154,-22 v 22"
+     stroke="#444444"
+     stroke-width="1.6"
+     fill="none"
+     stroke-linecap="round"
+     stroke-linejoin="round"
+     id="path1"
+     sodipodi:nodetypes="cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc" />
+  <rect
+     x="2236.2246"
+     y="20.294128"
+     width="145"
+     height="66"
+     rx="5"
+     fill="#ffffff"
+     stroke="#222222"
+     stroke-width="1.4"
+     id="rect3"
+     ry="5" />
+  <text
+     x="2308.7246"
+     y="58.294128"
+     font-family="'DejaVu Sans Mono', monospace"
+     font-size="13px"
+     font-weight="700"
+     text-anchor="middle"
+     fill="#161616"
+     id="text3">invoice</text>
+  <rect
+     x="3.2246883"
+     y="130.29413"
+     width="145"
+     height="66"
+     rx="5"
+     fill="#ffffff"
+     stroke="#222222"
+     stroke-width="1.4"
+     id="rect4"
+     ry="5" />
+  <text
+     x="75.724686"
+     y="146.29413"
+     font-family="'DejaVu Sans Mono', monospace"
+     font-size="11px"
+     font-weight="700"
+     text-anchor="middle"
+     fill="#161616"
+     id="text4">invoiceNumber</text>
+  <text
+     x="75.724686"
+     y="164.29413"
+     font-family="'DejaVu Sans', sans-serif"
+     font-size="12px"
+     font-weight="400"
+     text-anchor="middle"
+     fill="#161616"
+     id="text5">INV-2026-0842</text>
+  <rect
+     x="157.22469"
+     y="130.29413"
+     width="145"
+     height="66"
+     rx="5"
+     fill="#ffffff"
+     stroke="#222222"
+     stroke-width="1.4"
+     id="rect5"
+     ry="5" />
+  <text
+     x="229.72469"
+     y="146.29413"
+     font-family="'DejaVu Sans Mono', monospace"
+     font-size="11px"
+     font-weight="700"
+     text-anchor="middle"
+     fill="#161616"
+     id="text6">issueDate</text>
+  <text
+     x="229.72469"
+     y="164.29413"
+     font-family="'DejaVu Sans', sans-serif"
+     font-size="12px"
+     font-weight="400"
+     text-anchor="middle"
+     fill="#161616"
+     id="text7">2026-11-11</text>
+  <rect
+     x="311.2247"
+     y="130.29413"
+     width="145"
+     height="66"
+     rx="5"
+     fill="#ffffff"
+     stroke="#222222"
+     stroke-width="1.4"
+     id="rect7"
+     ry="5" />
+  <text
+     x="383.7247"
+     y="146.29413"
+     font-family="'DejaVu Sans Mono', monospace"
+     font-size="11px"
+     font-weight="700"
+     text-anchor="middle"
+     fill="#161616"
+     id="text8">dueDate</text>
+  <text
+     x="383.7247"
+     y="164.29413"
+     font-family="'DejaVu Sans', sans-serif"
+     font-size="12px"
+     font-weight="400"
+     text-anchor="middle"
+     fill="#161616"
+     id="text9">2026-12-11</text>
+  <rect
+     x="465.2247"
+     y="130.29413"
+     width="145"
+     height="66"
+     rx="5"
+     fill="#ffffff"
+     stroke="#222222"
+     stroke-width="1.4"
+     id="rect9"
+     ry="5" />
+  <text
+     x="537.72467"
+     y="146.29413"
+     font-family="'DejaVu Sans Mono', monospace"
+     font-size="11px"
+     font-weight="700"
+     text-anchor="middle"
+     fill="#161616"
+     id="text10">currency</text>
+  <text
+     x="537.72467"
+     y="164.29413"
+     font-family="'DejaVu Sans', sans-serif"
+     font-size="12px"
+     font-weight="400"
+     text-anchor="middle"
+     fill="#161616"
+     id="text11">EUR</text>
+  <rect
+     x="619.22467"
+     y="130.29413"
+     width="145"
+     height="66"
+     rx="5"
+     fill="#ffffff"
+     stroke="#222222"
+     stroke-width="1.4"
+     id="rect11"
+     ry="5" />
+  <text
+     x="691.72467"
+     y="146.29413"
+     font-family="'DejaVu Sans Mono', monospace"
+     font-size="11px"
+     font-weight="700"
+     text-anchor="middle"
+     fill="#161616"
+     id="text12">isPaid</text>
+  <text
+     x="691.72467"
+     y="164.29413"
+     font-family="'DejaVu Sans', sans-serif"
+     font-size="12px"
+     font-weight="400"
+     text-anchor="middle"
+     fill="#161616"
+     id="text13">false</text>
+  <rect
+     x="1158.2246"
+     y="130.29413"
+     width="145"
+     height="66"
+     rx="5"
+     fill="#ffffff"
+     stroke="#222222"
+     stroke-width="1.4"
+     id="rect13"
+     ry="5" />
+  <text
+     x="1230.7246"
+     y="168.29413"
+     font-family="'DejaVu Sans Mono', monospace"
+     font-size="13px"
+     font-weight="700"
+     text-anchor="middle"
+     fill="#161616"
+     id="text14">supplier</text>
+  <rect
+     x="773.22467"
+     y="240.29413"
+     width="145"
+     height="66"
+     rx="5"
+     fill="#ffffff"
+     stroke="#222222"
+     stroke-width="1.4"
+     id="rect14"
+     ry="5" />
+  <text
+     x="845.72467"
+     y="256.29413"
+     font-family="'DejaVu Sans Mono', monospace"
+     font-size="11px"
+     font-weight="700"
+     text-anchor="middle"
+     fill="#161616"
+     id="text15">name</text>
+  <text
+     x="845.72467"
+     y="274.29413"
+     font-family="'DejaVu Sans', sans-serif"
+     font-size="12px"
+     font-weight="400"
+     text-anchor="middle"
+     fill="#161616"
+     id="text16">AlpenTech Solutions</text>
+  <text
+     x="845.72467"
+     y="287.29413"
+     font-family="'DejaVu Sans', sans-serif"
+     font-size="12px"
+     font-weight="400"
+     text-anchor="middle"
+     fill="#161616"
+     id="text17">GmbH</text>
+  <rect
+     x="927.22467"
+     y="240.29413"
+     width="145"
+     height="66"
+     rx="5"
+     fill="#ffffff"
+     stroke="#222222"
+     stroke-width="1.4"
+     id="rect17"
+     ry="5" />
+  <text
+     x="999.72467"
+     y="256.29413"
+     font-family="'DejaVu Sans Mono', monospace"
+     font-size="11px"
+     font-weight="700"
+     text-anchor="middle"
+     fill="#161616"
+     id="text18">email</text>
+  <text
+     x="999.72467"
+     y="274.29413"
+     font-family="'DejaVu Sans', sans-serif"
+     font-size="12px"
+     font-weight="400"
+     text-anchor="middle"
+     fill="#161616"
+     id="text19">billing@alpentech.at</text>
+  <rect
+     x="1312.2246"
+     y="240.29413"
+     width="145"
+     height="66"
+     rx="5"
+     fill="#ffffff"
+     stroke="#222222"
+     stroke-width="1.4"
+     id="rect19"
+     ry="5" />
+  <text
+     x="1384.7246"
+     y="278.29413"
+     font-family="'DejaVu Sans Mono', monospace"
+     font-size="13px"
+     font-weight="700"
+     text-anchor="middle"
+     fill="#161616"
+     id="text20">address</text>
+  <rect
+     x="1081.2246"
+     y="350.29413"
+     width="145"
+     height="66"
+     rx="5"
+     fill="#ffffff"
+     stroke="#222222"
+     stroke-width="1.4"
+     id="rect20"
+     ry="5" />
+  <text
+     x="1153.7246"
+     y="366.29413"
+     font-family="'DejaVu Sans Mono', monospace"
+     font-size="11px"
+     font-weight="700"
+     text-anchor="middle"
+     fill="#161616"
+     id="text21">street</text>
+  <text
+     x="1153.7246"
+     y="384.29413"
+     font-family="'DejaVu Sans', sans-serif"
+     font-size="12px"
+     font-weight="400"
+     text-anchor="middle"
+     fill="#161616"
+     id="text22">Mariahilfer Straße</text>
+  <text
+     x="1153.7246"
+     y="397.29413"
+     font-family="'DejaVu Sans', sans-serif"
+     font-size="12px"
+     font-weight="400"
+     text-anchor="middle"
+     fill="#161616"
+     id="text23">45</text>
+  <rect
+     x="1235.2246"
+     y="350.29413"
+     width="145"
+     height="66"
+     rx="5"
+     fill="#ffffff"
+     stroke="#222222"
+     stroke-width="1.4"
+     id="rect23"
+     ry="5" />
+  <text
+     x="1307.7246"
+     y="366.29413"
+     font-family="'DejaVu Sans Mono', monospace"
+     font-size="11px"
+     font-weight="700"
+     text-anchor="middle"
+     fill="#161616"
+     id="text24">postalCode</text>
+  <text
+     x="1307.7246"
+     y="384.29413"
+     font-family="'DejaVu Sans', sans-serif"
+     font-size="12px"
+     font-weight="400"
+     text-anchor="middle"
+     fill="#161616"
+     id="text25">1060</text>
+  <rect
+     x="1389.2246"
+     y="350.29413"
+     width="145"
+     height="66"
+     rx="5"
+     fill="#ffffff"
+     stroke="#222222"
+     stroke-width="1.4"
+     id="rect25"
+     ry="5" />
+  <text
+     x="1461.7246"
+     y="366.29413"
+     font-family="'DejaVu Sans Mono', monospace"
+     font-size="11px"
+     font-weight="700"
+     text-anchor="middle"
+     fill="#161616"
+     id="text26">city</text>
+  <text
+     x="1461.7246"
+     y="384.29413"
+     font-family="'DejaVu Sans', sans-serif"
+     font-size="12px"
+     font-weight="400"
+     text-anchor="middle"
+     fill="#161616"
+     id="text27">Vienna</text>
+  <rect
+     x="1543.2246"
+     y="350.29413"
+     width="145"
+     height="66"
+     rx="5"
+     fill="#ffffff"
+     stroke="#222222"
+     stroke-width="1.4"
+     id="rect27"
+     ry="5" />
+  <text
+     x="1615.7246"
+     y="366.29413"
+     font-family="'DejaVu Sans Mono', monospace"
+     font-size="11px"
+     font-weight="700"
+     text-anchor="middle"
+     fill="#161616"
+     id="text28">country</text>
+  <text
+     x="1615.7246"
+     y="384.29413"
+     font-family="'DejaVu Sans', sans-serif"
+     font-size="12px"
+     font-weight="400"
+     text-anchor="middle"
+     fill="#161616"
+     id="text29">Austria</text>
+  <rect
+     x="2082.2246"
+     y="130.29413"
+     width="145"
+     height="66"
+     rx="5"
+     fill="#ffffff"
+     stroke="#222222"
+     stroke-width="1.4"
+     id="rect29"
+     ry="5" />
+  <text
+     x="2154.7246"
+     y="168.29413"
+     font-family="'DejaVu Sans Mono', monospace"
+     font-size="13px"
+     font-weight="700"
+     text-anchor="middle"
+     fill="#161616"
+     id="text30">customer</text>
+  <rect
+     x="1697.2246"
+     y="240.29413"
+     width="145"
+     height="66"
+     rx="5"
+     fill="#ffffff"
+     stroke="#222222"
+     stroke-width="1.4"
+     id="rect30"
+     ry="5" />
+  <text
+     x="1769.7246"
+     y="256.29413"
+     font-family="'DejaVu Sans Mono', monospace"
+     font-size="11px"
+     font-weight="700"
+     text-anchor="middle"
+     fill="#161616"
+     id="text31">name</text>
+  <text
+     x="1769.7246"
+     y="274.29413"
+     font-family="'DejaVu Sans', sans-serif"
+     font-size="12px"
+     font-weight="400"
+     text-anchor="middle"
+     fill="#161616"
+     id="text32">Nordic Design Studio</text>
+  <text
+     x="1769.7246"
+     y="287.29413"
+     font-family="'DejaVu Sans', sans-serif"
+     font-size="12px"
+     font-weight="400"
+     text-anchor="middle"
+     fill="#161616"
+     id="text33">AB</text>
+  <rect
+     x="1851.2246"
+     y="240.29413"
+     width="145"
+     height="66"
+     rx="5"
+     fill="#ffffff"
+     stroke="#222222"
+     stroke-width="1.4"
+     id="rect33"
+     ry="5" />
+  <text
+     x="1923.7246"
+     y="256.29413"
+     font-family="'DejaVu Sans Mono', monospace"
+     font-size="11px"
+     font-weight="700"
+     text-anchor="middle"
+     fill="#161616"
+     id="text34">contactPerson</text>
+  <text
+     x="1923.7246"
+     y="274.29413"
+     font-family="'DejaVu Sans', sans-serif"
+     font-size="12px"
+     font-weight="400"
+     text-anchor="middle"
+     fill="#161616"
+     id="text35">Astrid Lindqvist</text>
+  <rect
+     x="2236.2246"
+     y="240.29413"
+     width="145"
+     height="66"
+     rx="5"
+     fill="#ffffff"
+     stroke="#222222"
+     stroke-width="1.4"
+     id="rect35"
+     ry="5" />
+  <text
+     x="2308.7246"
+     y="278.29413"
+     font-family="'DejaVu Sans Mono', monospace"
+     font-size="13px"
+     font-weight="700"
+     text-anchor="middle"
+     fill="#161616"
+     id="text36">address</text>
+  <rect
+     x="2005.2246"
+     y="350.29413"
+     width="145"
+     height="66"
+     rx="5"
+     fill="#ffffff"
+     stroke="#222222"
+     stroke-width="1.4"
+     id="rect36"
+     ry="5" />
+  <text
+     x="2077.7246"
+     y="366.29413"
+     font-family="'DejaVu Sans Mono', monospace"
+     font-size="11px"
+     font-weight="700"
+     text-anchor="middle"
+     fill="#161616"
+     id="text37">street</text>
+  <text
+     x="2077.7246"
+     y="384.29413"
+     font-family="'DejaVu Sans', sans-serif"
+     font-size="12px"
+     font-weight="400"
+     text-anchor="middle"
+     fill="#161616"
+     id="text38">Drottninggatan 18</text>
+  <rect
+     x="2159.2246"
+     y="350.29413"
+     width="145"
+     height="66"
+     rx="5"
+     fill="#ffffff"
+     stroke="#222222"
+     stroke-width="1.4"
+     id="rect38"
+     ry="5" />
+  <text
+     x="2231.7246"
+     y="366.29413"
+     font-family="'DejaVu Sans Mono', monospace"
+     font-size="11px"
+     font-weight="700"
+     text-anchor="middle"
+     fill="#161616"
+     id="text39">postalCode</text>
+  <text
+     x="2231.7246"
+     y="384.29413"
+     font-family="'DejaVu Sans', sans-serif"
+     font-size="12px"
+     font-weight="400"
+     text-anchor="middle"
+     fill="#161616"
+     id="text40">111 51</text>
+  <rect
+     x="2313.2246"
+     y="350.29413"
+     width="145"
+     height="66"
+     rx="5"
+     fill="#ffffff"
+     stroke="#222222"
+     stroke-width="1.4"
+     id="rect40"
+     ry="5" />
+  <text
+     x="2385.7246"
+     y="366.29413"
+     font-family="'DejaVu Sans Mono', monospace"
+     font-size="11px"
+     font-weight="700"
+     text-anchor="middle"
+     fill="#161616"
+     id="text41">city</text>
+  <text
+     x="2385.7246"
+     y="384.29413"
+     font-family="'DejaVu Sans', sans-serif"
+     font-size="12px"
+     font-weight="400"
+     text-anchor="middle"
+     fill="#161616"
+     id="text42">Stockholm</text>
+  <rect
+     x="2467.2246"
+     y="350.29413"
+     width="145"
+     height="66"
+     rx="5"
+     fill="#ffffff"
+     stroke="#222222"
+     stroke-width="1.4"
+     id="rect42"
+     ry="5" />
+  <text
+     x="2539.7246"
+     y="366.29413"
+     font-family="'DejaVu Sans Mono', monospace"
+     font-size="11px"
+     font-weight="700"
+     text-anchor="middle"
+     fill="#161616"
+     id="text43">country</text>
+  <text
+     x="2539.7246"
+     y="384.29413"
+     font-family="'DejaVu Sans', sans-serif"
+     font-size="12px"
+     font-weight="400"
+     text-anchor="middle"
+     fill="#161616"
+     id="text44">Sweden</text>
+  <rect
+     x="3468.2246"
+     y="130.29413"
+     width="145"
+     height="66"
+     rx="5"
+     fill="#ffffff"
+     stroke="#222222"
+     stroke-width="1.4"
+     id="rect44"
+     ry="5" />
+  <text
+     x="3540.7246"
+     y="168.29413"
+     font-family="'DejaVu Sans Mono', monospace"
+     font-size="13px"
+     font-weight="700"
+     text-anchor="middle"
+     fill="#161616"
+     id="text45">items</text>
+  <rect
+     x="2852.2246"
+     y="240.29413"
+     width="145"
+     height="66"
+     rx="5"
+     fill="#ffffff"
+     stroke="#222222"
+     stroke-width="1.4"
+     id="rect45"
+     ry="5" />
+  <text
+     x="2924.7246"
+     y="278.29413"
+     font-family="'DejaVu Sans Mono', monospace"
+     font-size="13px"
+     font-weight="700"
+     text-anchor="middle"
+     fill="#161616"
+     id="text46">[0]</text>
+  <rect
+     x="2621.2246"
+     y="350.29413"
+     width="145"
+     height="66"
+     rx="5"
+     fill="#ffffff"
+     stroke="#222222"
+     stroke-width="1.4"
+     id="rect46"
+     ry="5" />
+  <text
+     x="2693.7246"
+     y="366.29413"
+     font-family="'DejaVu Sans Mono', monospace"
+     font-size="11px"
+     font-weight="700"
+     text-anchor="middle"
+     fill="#161616"
+     id="text47">description</text>
+  <text
+     x="2693.7246"
+     y="384.29413"
+     font-family="'DejaVu Sans', sans-serif"
+     font-size="12px"
+     font-weight="400"
+     text-anchor="middle"
+     fill="#161616"
+     id="text48">Wireless Mechanical</text>
+  <text
+     x="2693.7246"
+     y="397.29413"
+     font-family="'DejaVu Sans', sans-serif"
+     font-size="12px"
+     font-weight="400"
+     text-anchor="middle"
+     fill="#161616"
+     id="text49">Keyboard</text>
+  <rect
+     x="2775.2246"
+     y="350.29413"
+     width="145"
+     height="66"
+     rx="5"
+     fill="#ffffff"
+     stroke="#222222"
+     stroke-width="1.4"
+     id="rect49"
+     ry="5" />
+  <text
+     x="2847.7246"
+     y="366.29413"
+     font-family="'DejaVu Sans Mono', monospace"
+     font-size="11px"
+     font-weight="700"
+     text-anchor="middle"
+     fill="#161616"
+     id="text50">quantity</text>
+  <text
+     x="2847.7246"
+     y="384.29413"
+     font-family="'DejaVu Sans', sans-serif"
+     font-size="12px"
+     font-weight="400"
+     text-anchor="middle"
+     fill="#161616"
+     id="text51">3</text>
+  <rect
+     x="2929.2246"
+     y="350.29413"
+     width="145"
+     height="66"
+     rx="5"
+     fill="#ffffff"
+     stroke="#222222"
+     stroke-width="1.4"
+     id="rect51"
+     ry="5" />
+  <text
+     x="3001.7246"
+     y="366.29413"
+     font-family="'DejaVu Sans Mono', monospace"
+     font-size="11px"
+     font-weight="700"
+     text-anchor="middle"
+     fill="#161616"
+     id="text52">unitPrice</text>
+  <text
+     x="3001.7246"
+     y="384.29413"
+     font-family="'DejaVu Sans', sans-serif"
+     font-size="12px"
+     font-weight="400"
+     text-anchor="middle"
+     fill="#161616"
+     id="text53">110.00</text>
+  <rect
+     x="3083.2246"
+     y="350.29413"
+     width="145"
+     height="66"
+     rx="5"
+     fill="#ffffff"
+     stroke="#222222"
+     stroke-width="1.4"
+     id="rect53"
+     ry="5" />
+  <text
+     x="3155.7246"
+     y="366.29413"
+     font-family="'DejaVu Sans Mono', monospace"
+     font-size="11px"
+     font-weight="700"
+     text-anchor="middle"
+     fill="#161616"
+     id="text54">total</text>
+  <text
+     x="3155.7246"
+     y="384.29413"
+     font-family="'DejaVu Sans', sans-serif"
+     font-size="12px"
+     font-weight="400"
+     text-anchor="middle"
+     fill="#161616"
+     id="text55">330.00</text>
+  <rect
+     x="3468.2246"
+     y="240.29413"
+     width="145"
+     height="66"
+     rx="5"
+     fill="#ffffff"
+     stroke="#222222"
+     stroke-width="1.4"
+     id="rect55"
+     ry="5" />
+  <text
+     x="3540.7246"
+     y="278.29413"
+     font-family="'DejaVu Sans Mono', monospace"
+     font-size="13px"
+     font-weight="700"
+     text-anchor="middle"
+     fill="#161616"
+     id="text56">[1]</text>
+  <rect
+     x="3237.2246"
+     y="350.29413"
+     width="145"
+     height="66"
+     rx="5"
+     fill="#ffffff"
+     stroke="#222222"
+     stroke-width="1.4"
+     id="rect56"
+     ry="5" />
+  <text
+     x="3309.7246"
+     y="366.29413"
+     font-family="'DejaVu Sans Mono', monospace"
+     font-size="11px"
+     font-weight="700"
+     text-anchor="middle"
+     fill="#161616"
+     id="text57">description</text>
+  <text
+     x="3309.7246"
+     y="384.29413"
+     font-family="'DejaVu Sans', sans-serif"
+     font-size="12px"
+     font-weight="400"
+     text-anchor="middle"
+     fill="#161616"
+     id="text58">27-inch 4K Monitor</text>
+  <rect
+     x="3391.2246"
+     y="350.29413"
+     width="145"
+     height="66"
+     rx="5"
+     fill="#ffffff"
+     stroke="#222222"
+     stroke-width="1.4"
+     id="rect58"
+     ry="5" />
+  <text
+     x="3463.7246"
+     y="366.29413"
+     font-family="'DejaVu Sans Mono', monospace"
+     font-size="11px"
+     font-weight="700"
+     text-anchor="middle"
+     fill="#161616"
+     id="text59">quantity</text>
+  <text
+     x="3463.7246"
+     y="384.29413"
+     font-family="'DejaVu Sans', sans-serif"
+     font-size="12px"
+     font-weight="400"
+     text-anchor="middle"
+     fill="#161616"
+     id="text60">2</text>
+  <rect
+     x="3545.2246"
+     y="350.29413"
+     width="145"
+     height="66"
+     rx="5"
+     fill="#ffffff"
+     stroke="#222222"
+     stroke-width="1.4"
+     id="rect60"
+     ry="5" />
+  <text
+     x="3617.7246"
+     y="366.29413"
+     font-family="'DejaVu Sans Mono', monospace"
+     font-size="11px"
+     font-weight="700"
+     text-anchor="middle"
+     fill="#161616"
+     id="text61">unitPrice</text>
+  <text
+     x="3617.7246"
+     y="384.29413"
+     font-family="'DejaVu Sans', sans-serif"
+     font-size="12px"
+     font-weight="400"
+     text-anchor="middle"
+     fill="#161616"
+     id="text62">325.50</text>
+  <rect
+     x="3699.2246"
+     y="350.29413"
+     width="145"
+     height="66"
+     rx="5"
+     fill="#ffffff"
+     stroke="#222222"
+     stroke-width="1.4"
+     id="rect62"
+     ry="5" />
+  <text
+     x="3771.7246"
+     y="366.29413"
+     font-family="'DejaVu Sans Mono', monospace"
+     font-size="11px"
+     font-weight="700"
+     text-anchor="middle"
+     fill="#161616"
+     id="text63">total</text>
+  <text
+     x="3771.7246"
+     y="384.29413"
+     font-family="'DejaVu Sans', sans-serif"
+     font-size="12px"
+     font-weight="400"
+     text-anchor="middle"
+     fill="#161616"
+     id="text64">651.00</text>
+  <rect
+     x="4084.2246"
+     y="240.29413"
+     width="145"
+     height="66"
+     rx="5"
+     fill="#ffffff"
+     stroke="#222222"
+     stroke-width="1.4"
+     id="rect64"
+     ry="5" />
+  <text
+     x="4156.7251"
+     y="278.29413"
+     font-family="'DejaVu Sans Mono', monospace"
+     font-size="13px"
+     font-weight="700"
+     text-anchor="middle"
+     fill="#161616"
+     id="text65">[2]</text>
+  <rect
+     x="3853.2246"
+     y="350.29413"
+     width="145"
+     height="66"
+     rx="5"
+     fill="#ffffff"
+     stroke="#222222"
+     stroke-width="1.4"
+     id="rect65"
+     ry="5" />
+  <text
+     x="3925.7246"
+     y="366.29413"
+     font-family="'DejaVu Sans Mono', monospace"
+     font-size="11px"
+     font-weight="700"
+     text-anchor="middle"
+     fill="#161616"
+     id="text66">description</text>
+  <text
+     x="3925.7246"
+     y="384.29413"
+     font-family="'DejaVu Sans', sans-serif"
+     font-size="12px"
+     font-weight="400"
+     text-anchor="middle"
+     fill="#161616"
+     id="text67">USB-C Docking</text>
+  <text
+     x="3925.7246"
+     y="397.29413"
+     font-family="'DejaVu Sans', sans-serif"
+     font-size="12px"
+     font-weight="400"
+     text-anchor="middle"
+     fill="#161616"
+     id="text68">Station</text>
+  <rect
+     x="4007.2246"
+     y="350.29413"
+     width="145"
+     height="66"
+     rx="5"
+     fill="#ffffff"
+     stroke="#222222"
+     stroke-width="1.4"
+     id="rect68"
+     ry="5" />
+  <text
+     x="4079.7246"
+     y="366.29413"
+     font-family="'DejaVu Sans Mono', monospace"
+     font-size="11px"
+     font-weight="700"
+     text-anchor="middle"
+     fill="#161616"
+     id="text69">quantity</text>
+  <text
+     x="4079.7246"
+     y="384.29413"
+     font-family="'DejaVu Sans', sans-serif"
+     font-size="12px"
+     font-weight="400"
+     text-anchor="middle"
+     fill="#161616"
+     id="text70">3</text>
+  <rect
+     x="4161.2251"
+     y="350.29413"
+     width="145"
+     height="66"
+     rx="5"
+     fill="#ffffff"
+     stroke="#222222"
+     stroke-width="1.4"
+     id="rect70"
+     ry="5" />
+  <text
+     x="4233.7251"
+     y="366.29413"
+     font-family="'DejaVu Sans Mono', monospace"
+     font-size="11px"
+     font-weight="700"
+     text-anchor="middle"
+     fill="#161616"
+     id="text71">unitPrice</text>
+  <text
+     x="4233.7251"
+     y="384.29413"
+     font-family="'DejaVu Sans', sans-serif"
+     font-size="12px"
+     font-weight="400"
+     text-anchor="middle"
+     fill="#161616"
+     id="text72">85.00</text>
+  <rect
+     x="4315.2251"
+     y="350.29413"
+     width="145"
+     height="66"
+     rx="5"
+     fill="#ffffff"
+     stroke="#222222"
+     stroke-width="1.4"
+     id="rect72"
+     ry="5" />
+  <text
+     x="4387.7251"
+     y="366.29413"
+     font-family="'DejaVu Sans Mono', monospace"
+     font-size="11px"
+     font-weight="700"
+     text-anchor="middle"
+     fill="#161616"
+     id="text73">total</text>
+  <text
+     x="4387.7251"
+     y="384.29413"
+     font-family="'DejaVu Sans', sans-serif"
+     font-size="12px"
+     font-weight="400"
+     text-anchor="middle"
+     fill="#161616"
+     id="text74">255.00</text>
+  <rect
+     x="4469.2251"
+     y="130.29413"
+     width="145"
+     height="66"
+     rx="5"
+     fill="#ffffff"
+     stroke="#222222"
+     stroke-width="1.4"
+     id="rect74"
+     ry="5" />
+  <text
+     x="4541.7251"
+     y="146.29413"
+     font-family="'DejaVu Sans Mono', monospace"
+     font-size="11px"
+     font-weight="700"
+     text-anchor="middle"
+     fill="#161616"
+     id="text75">totalAmount</text>
+  <text
+     x="4541.7251"
+     y="164.29413"
+     font-family="'DejaVu Sans', sans-serif"
+     font-size="12px"
+     font-weight="400"
+     text-anchor="middle"
+     fill="#161616"
+     id="text76">1236.00</text>
+  <metadata
+     id="metadata76">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>A YAML document as a tree</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>

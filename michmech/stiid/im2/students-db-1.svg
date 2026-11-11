@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="338" viewBox="0 0 1120 338" role="img" aria-labelledby="title desc">
+<title id="title">Students and courses: a many-to-many relationship</title>
+<desc id="desc">Amina Khan takes Linguistics and Translation. Leo Novak also takes Translation. Sofia Rossi takes Web Design. Each enrolment row points to its student and course rows.</desc>
+<rect x="0" y="0" width="1120" height="338" fill="#ffffff" />
+<g transform="translate(0 -100)">
+<rect x="32" y="132" width="278" height="46" fill="#17283c" />
+<text x="48" y="162" font-family="sans-serif" font-size="24" fill="#ffffff" font-weight="700">students</text>
+<rect x="32" y="178" width="278" height="44" fill="#e8eef5" />
+<rect x="32" y="222" width="278" height="46" fill="#ffffff" />
+<path d="M32 222 h278" stroke="#d4dde8"/>
+<text x="48" y="252" font-family="sans-serif" font-size="20" fill="#17283c" font-weight="400">Amina Khan</text>
+<text x="180" y="252" font-family="sans-serif" font-size="20" fill="#205da8" font-weight="700">101</text>
+<rect x="32" y="268" width="278" height="46" fill="#f5f8fc" />
+<path d="M32 268 h278" stroke="#d4dde8"/>
+<text x="48" y="298" font-family="sans-serif" font-size="20" fill="#17283c" font-weight="400">Leo Novak</text>
+<text x="180" y="298" font-family="sans-serif" font-size="20" fill="#205da8" font-weight="700">102</text>
+<rect x="32" y="314" width="278" height="46" fill="#ffffff" />
+<path d="M32 314 h278" stroke="#d4dde8"/>
+<text x="48" y="344" font-family="sans-serif" font-size="20" fill="#17283c" font-weight="400">Sofia Rossi</text>
+<text x="180" y="344" font-family="sans-serif" font-size="20" fill="#205da8" font-weight="700">103</text>
+<text x="48" y="205" font-family="monospace" font-size="16" fill="#17283c" font-weight="700">name</text>
+<text x="180" y="205" font-family="monospace" font-size="16" fill="#205da8" font-weight="700">student_id</text>
+<path d="M165 178 V360" stroke="#d4dde8"/>
+<rect x="32" y="132" width="278" height="228" fill="none" stroke="#9eafc0"/>
+<rect x="411" y="132" width="298" height="46" fill="#17283c" />
+<text x="427" y="162" font-family="sans-serif" font-size="24" fill="#ffffff" font-weight="700">enrolments</text>
+<rect x="411" y="178" width="298" height="44" fill="#e8eef5" />
+<rect x="411" y="222" width="298" height="46" fill="#ffffff" />
+<path d="M411 222 h298" stroke="#d4dde8"/>
+<text x="427" y="252" font-family="sans-serif" font-size="20" fill="#205da8" font-weight="700">101</text>
+<text x="577" y="252" font-family="sans-serif" font-size="20" fill="#087361" font-weight="700">201</text>
+<rect x="411" y="268" width="298" height="46" fill="#f5f8fc" />
+<path d="M411 268 h298" stroke="#d4dde8"/>
+<text x="427" y="298" font-family="sans-serif" font-size="20" fill="#205da8" font-weight="700">101</text>
+<text x="577" y="298" font-family="sans-serif" font-size="20" fill="#087361" font-weight="700">202</text>
+<rect x="411" y="314" width="298" height="46" fill="#ffffff" />
+<path d="M411 314 h298" stroke="#d4dde8"/>
+<text x="427" y="344" font-family="sans-serif" font-size="20" fill="#205da8" font-weight="700">102</text>
+<text x="577" y="344" font-family="sans-serif" font-size="20" fill="#087361" font-weight="700">202</text>
+<rect x="411" y="360" width="298" height="46" fill="#f5f8fc" />
+<path d="M411 360 h298" stroke="#d4dde8"/>
+<text x="427" y="390" font-family="sans-serif" font-size="20" fill="#205da8" font-weight="700">103</text>
+<text x="577" y="390" font-family="sans-serif" font-size="20" fill="#087361" font-weight="700">203</text>
+<text x="427" y="205" font-family="monospace" font-size="16" fill="#205da8" font-weight="700">student_id</text>
+<text x="577" y="205" font-family="monospace" font-size="16" fill="#087361" font-weight="700">course_id</text>
+<path d="M562 178 V406" stroke="#d4dde8"/>
+<rect x="411" y="132" width="298" height="274" fill="none" stroke="#9eafc0"/>
+<rect x="810" y="132" width="278" height="46" fill="#17283c" />
+<text x="826" y="162" font-family="sans-serif" font-size="24" fill="#ffffff" font-weight="700">courses</text>
+<rect x="810" y="178" width="278" height="44" fill="#e8eef5" />
+<rect x="810" y="222" width="278" height="46" fill="#ffffff" />
+<path d="M810 222 h278" stroke="#d4dde8"/>
+<text x="826" y="252" font-family="sans-serif" font-size="20" fill="#087361" font-weight="700">201</text>
+<text x="958" y="252" font-family="sans-serif" font-size="20" fill="#17283c" font-weight="400">Linguistics</text>
+<rect x="810" y="268" width="278" height="46" fill="#f5f8fc" />
+<path d="M810 268 h278" stroke="#d4dde8"/>
+<text x="826" y="298" font-family="sans-serif" font-size="20" fill="#087361" font-weight="700">202</text>
+<text x="958" y="298" font-family="sans-serif" font-size="20" fill="#17283c" font-weight="400">Translation</text>
+<rect x="810" y="314" width="278" height="46" fill="#ffffff" />
+<path d="M810 314 h278" stroke="#d4dde8"/>
+<text x="826" y="344" font-family="sans-serif" font-size="20" fill="#087361" font-weight="700">203</text>
+<text x="958" y="344" font-family="sans-serif" font-size="20" fill="#17283c" font-weight="400">Web Design</text>
+<text x="826" y="205" font-family="monospace" font-size="16" fill="#087361" font-weight="700">course_id</text>
+<text x="958" y="205" font-family="monospace" font-size="16" fill="#17283c" font-weight="700">title</text>
+<path d="M943 178 V360" stroke="#d4dde8"/>
+<rect x="810" y="132" width="278" height="228" fill="none" stroke="#9eafc0"/>
+<path d="M411 245 C359.0 245 363.0 239 310 239" fill="none" stroke="#205da8" stroke-width="2.4"/>
+<circle cx="310" cy="239" r="3.2" fill="#205da8"/>
+<circle cx="411" cy="245" r="3.2" fill="#205da8"/>
+<path d="M709 245 C761.0 245 757.0 245 810 245" fill="none" stroke="#087361" stroke-width="2.4"/>
+<circle cx="810" cy="245" r="3.2" fill="#087361"/>
+<circle cx="709" cy="245" r="3.2" fill="#087361"/>
+<path d="M411 291 C359.0 291 363.0 251 310 251" fill="none" stroke="#205da8" stroke-width="2.4"/>
+<circle cx="310" cy="251" r="3.2" fill="#205da8"/>
+<circle cx="411" cy="291" r="3.2" fill="#205da8"/>
+<path d="M709 291 C761.0 291 757.0 285 810 285" fill="none" stroke="#087361" stroke-width="2.4"/>
+<circle cx="810" cy="285" r="3.2" fill="#087361"/>
+<circle cx="709" cy="291" r="3.2" fill="#087361"/>
+<path d="M411 337 C359.0 337 363.0 291 310 291" fill="none" stroke="#205da8" stroke-width="2.4"/>
+<circle cx="310" cy="291" r="3.2" fill="#205da8"/>
+<circle cx="411" cy="337" r="3.2" fill="#205da8"/>
+<path d="M709 337 C761.0 337 757.0 297 810 297" fill="none" stroke="#087361" stroke-width="2.4"/>
+<circle cx="810" cy="297" r="3.2" fill="#087361"/>
+<circle cx="709" cy="337" r="3.2" fill="#087361"/>
+<path d="M411 383 C359.0 383 363.0 337 310 337" fill="none" stroke="#205da8" stroke-width="2.4"/>
+<circle cx="310" cy="337" r="3.2" fill="#205da8"/>
+<circle cx="411" cy="383" r="3.2" fill="#205da8"/>
+<path d="M709 383 C761.0 383 757.0 337 810 337" fill="none" stroke="#087361" stroke-width="2.4"/>
+<circle cx="810" cy="337" r="3.2" fill="#087361"/>
+<circle cx="709" cy="383" r="3.2" fill="#087361"/>
+</g>
+</svg>
