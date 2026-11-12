@@ -51,12 +51,12 @@ Multilingual software
 ## Tab-Separated Values (TSV)
 cities.tsv
 ```
-City	2000	2010	2020	2030 (Projected)
-Paris	2.15	2.24	2.18	2.15
-Berlin	3.38	3.45	3.66	3.75
-Madrid	2.96	3.19	3.33	3.42
-Vienna	1.55	1.70	1.91	2.01
-Rome	2.66	2.76	2.84	2.80
+City  2000  2010  2020  2030 (Projected)
+Paris  2.15  2.24  2.18  2.15
+Berlin  3.38  3.45  3.66  3.75
+Madrid  2.96  3.19  3.33  3.42
+Vienna  1.55  1.70  1.91  2.01
+Rome  2.66  2.76  2.84  2.80
 ```
 The tab character: [U+0009 CHARACTER TABULATION](https://unicode-explorer.com/c/0009)
 
@@ -64,12 +64,12 @@ The tab character: [U+0009 CHARACTER TABULATION](https://unicode-explorer.com/c/
 ## Tab-Separated Values (TSV)
 students.tsv
 ```
-Student Name	Date of Birth	Year of Study	Average Grade	Main Subject	Registered?
-Alex Mercer	2007-04-12	Year 1	1.3	Computer Science	Yes
-Chloe Zhao	2006-11-23	Year 2	1.1	Biochemistry	Yes
-Marcus Vance	2008-01-05	Year 1	3.2	Linguistics	No
-Elena Rostova	2007-08-30	Year 2	1.0	Mathematics	Yes
-Julian Alvarez	2006-03-14	Year 2	2.7	Graphic Design	Yes
+Student Name  Date of Birth  Year of Study  Average Grade  Main Subject  Registered?
+Alex Mercer  2007-04-12  Year 1  1.3  Computer Science  Yes
+Chloe Zhao  2006-11-23  Year 2  1.1  Biochemistry  Yes
+Marcus Vance  2008-01-05  Year 1  3.2  Linguistics  No
+Elena Rostova  2007-08-30  Year 2  1.0  Mathematics  Yes
+Julian Alvarez  2006-03-14  Year 2  2.7  Graphic Design  Yes
 ```
 The tab character: [U+0009 CHARACTER TABULATION](https://unicode-explorer.com/c/0009)
 
@@ -543,3 +543,341 @@ Order is insignificant (except in lists/arrays)
 - Popular alternative to XML for *data*
 - Not really suitable for *text* 
 
+---
+## YAML
+- "Yet Another Markup Language"
+- "YAML Ain't a Markup Language"
+
+---
+## Structured data in YAML
+<!-- .slide: style="height: 100%; overflow-y: auto;" -->
+
+```
+invoice:
+  invoiceNumber: INV-2026-0842
+  issueDate: 2026-11-11
+  dueDate: 2026-12-11
+  currency: EUR
+  isPaid: false
+  
+  supplier:
+    name: AlpenTech Solutions GmbH
+    email: billing@alpentech.at
+    address:
+      street: Mariahilfer Straße 45
+      postalCode: 1060
+      city: Vienna
+      country: Austria
+  
+  customer:
+    name: Nordic Design Studio AB
+    contactPerson: Astrid Lindqvist
+    address:
+      street: Drottninggatan 18
+      postalCode: 111 51
+      city: Stockholm
+      country: Sweden
+  
+  items:
+    - description: Wireless Mechanical Keyboard
+      quantity: 3
+      unitPrice: 110.00
+      total: 330.00
+  
+    - description: 27-inch 4K Monitor
+      quantity: 2
+      unitPrice: 325.50
+      total: 651.00
+  
+    - description: USB-C Docking Station
+      quantity: 3
+      unitPrice: 85.00
+      total: 255.00
+  
+  totalAmount: 1236.00
+```
+
+---
+## Structured data in YAML
+<!-- .slide: style="height: 100%; overflow-y: auto;" -->
+
+```
+people:
+  - names:
+      - Leonardo da Vinci
+      - Leonardo di ser Piero da Vinci
+    birth:
+      date: 1452-04-15
+      place:
+        name: Vinci
+        countryCode: ITA
+    death:
+      date: 1519-05-02
+      place:
+        name: Amboise
+        countryCode: FRA
+    otherResidences:
+      - name: Florence
+        countryCode: ITA
+      - name: Milan
+        countryCode: ITA
+      - name: Rome
+        countryCode: ITA
+    professions:
+      - painter
+      - polymath
+      - inventor
+      - sculptor
+
+  - names:
+      - Marie Curie
+      - Maria Salomea Skłodowska
+    birth:
+      date: 1867-11-07
+      place:
+        name: Warsaw
+        countryCode: POL
+    death:
+      date: 1934-07-04
+      place:
+        name: Passy
+        countryCode: FRA
+    otherResidences:
+      - name: Paris
+        countryCode: FRA
+    professions:
+      - physicist
+      - chemist
+
+  - names:
+      - Ada Lovelace
+    birth:
+      date: 1815-12-10
+      place:
+        name: London
+        countryCode: GBR
+    death:
+      date: 1852-11-27
+      place:
+        name: London
+        countryCode: GBR
+    otherResidences:
+      - name: Kirkby Mallory
+        countryCode: GBR
+      - name: Surrey
+        countryCode: GBR
+    professions:
+      - mathematician
+      - writer
+      - computer scientist
+```
+
+---
+## The syntax of YAML (compared to JSON)
+- Name-value pairs
+  ```
+  name: Paris
+  ```
+- Indentation instead of curly brackets
+  ```
+    place:
+      name: London
+      countryCode: GBR
+  ```
+- Markdown-like bulleted lists instead of arrays
+  ```
+  professions:
+    - mathematician
+    - writer
+    - computer scientist
+  ```
+
+---
+## YAML
+- Optimised for human readability/writeability
+- A response to the perceived over-complexity of XML and JSON
+
+---
+## YAML front matter in Markdown
+<!-- .slide: style="height: 100%; overflow-y: auto;" -->
+
+```
+  ---
+  title: Lemon and mint lemonade recipe
+  author: Sam Rivera
+  datePublished: 2026-11-12
+  draft: false
+  tags:
+    - drinks
+    - summer
+  ---
+
+  # Lemon and mint lemonade
+
+  This tart, refreshing lemonade takes about ten minutes to make. Add a
+  little more sugar if you like it sweeter.
+
+  ## Ingredients
+
+  - 3 lemons
+  - 3 tablespoons of sugar
+  - 750 ml of cold water
+  - 8 fresh mint leaves
+  - Ice, to serve
+
+  ## Method
+
+  1. Squeeze the lemons into a jug and remove any pips.
+  2. Stir in the sugar until it dissolves, then add the cold water.
+  3. Gently crush the mint leaves between your fingers and drop them into the jug.
+  4. Taste, adjust the sweetness if needed, and pour into four glasses over ice.
+
+```
+
+---
+## What do XML, JSON and YAML have in common?
+They all represent a *tree structure*.
+
+---
+<!-- .slide: style="height: 100%; overflow-y: auto;" -->
+![](invoice-tree.svg)  <!--{.element style="width: 85%"}-->
+
+---
+<!-- .slide: style="height: 100%; overflow-y: auto;" -->
+![](people-tree.svg)  <!--{.element style="width: 85%"}-->
+
+---
+## Can *everything* be represented as a tree structure?
+
+---
+## 3. Relational databases
+
+---
+
+<div class="r-stack">
+
+![](students-db-0.svg) <!--{.element style="width: 100%"}-->
+
+![](students-db-1.svg) <!--{.element class="fragment" style="width: 100%"}-->
+
+</div>
+
+---
+## A relational database is...
+- Several two-dimensional tables
+  - with *relationships* between them
+
+---
+## SQL (Structured Query Language)
+
+---
+## SQL (Structured Query Language)
+
+![](students-db-1.svg) <!--{.element style="width: 100%"}-->
+
+```
+select name
+from students
+where student_id = 101
+```
+
+---
+## SQL (Structured Query Language)
+
+![](students-db-1.svg) <!--{.element style="width: 100%"}-->
+
+```
+select course_id
+from students
+join enrolments on students.student_id = enrolments.student_id
+where student_id = 101
+```
+
+---
+## SQL (Structured Query Language)
+
+![](students-db-1.svg) <!--{.element style="width: 100%"}-->
+
+```
+select course_id, title
+from students
+join enrolments on students.student_id = enrolments.student_id
+join courses on enrolments.course_id = courses.course_id
+where student_id = 101
+```
+
+---
+## Relational Databases Management Systems (RDBMS)
+- Desktop software
+  - Microsoft Access
+  - LibreOffice Base
+  - (SQLite)
+- Server software
+  - Microsoft SQL Server
+  - Oracle
+  - MySQL, MariaDB
+  - PostgreSQL
+
+Side note
+## What other databases are there besides *relational*?
+- Document databases
+  - XML databases
+- Graph databases 
+
+---
+## 4. Knowledge graphs
+
+---
+## Knowledge graph
+- **Nodes** which represent *things*
+  - E.g. students, courses
+- **Edges** which represent *relationships* between nodes
+  - E.g. "is enrolled in"
+Stored in *graph databases*. 
+
+---
+![](students-graph.svg) <!--{.element style="width: 100%"}-->
+
+---
+## Resource Description Framework (RDF)
+- A formalism to describe and exchange graph-structured data
+- Various *serialisation formats*: XML, JSON...
+
+---
+## An RDF *triple*
+
+- subject predicate object
+
+Examples:
+
+- student101 isEnrolledIn course201  
+- course201 hasTitle "Linguistics"
+
+---
+## Semantic Web
+- Goal: make the web data machine-readable as a graph
+- "Linked Data"
+
+![](wikidata.png) <!--{.element class="framed" style="width: 75%"}-->
+
+---
+## Plan for today
+1. Two-dimensional tables
+    - TSV, CSV
+2. Structured data
+    - XML, JSON, YAML
+3. Relational databases
+    - SQL
+4. Knowledge graphs
+    - Semantic Web, RDF
+
+---
+## How is this relevant for languge technology?
+- Many exchange formats for language data are XML (or, less commonly, JSON)
+  - TMX, TBX...
+- Some language data exists as graphs
+  - Semantic networks: Wordnet...
+- LLMs can sometimes output *structured data*
+  - Typically in JSON
+- LLM reasoning can sometimes be *grounded* using knowledge graphs
+  - "Resource-Augmented Generation" (RAG)

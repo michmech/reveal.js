@@ -78,6 +78,9 @@ img.portrait {
   width: 200px;
   border-radius: 100px;
 }
+img.framed {
+  border: 1px solid #666666;
+}
 
 span.hilite {
   background-color: lemonchiffon;
