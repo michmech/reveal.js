@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1342" height="405" viewBox="0 0 1342 405" role="img" aria-labelledby="title desc">
+  <title id="title">Three biographical infoboxes</title>
+  <desc id="desc">Side-by-side biographies of Leonardo da Vinci, Marie Curie and Ada Lovelace.</desc>
+  <rect width="1342" height="405" fill="#ffffff" />
+  <g transform="translate(16 16)" role="group" aria-label="Leonardo da Vinci">
+    <rect width="426" height="373" fill="#f8f9fa" stroke="#a2a9b1" />
+    <rect x="1" y="1" width="424" height="77" fill="#dde8f2" />
+    <text x="213" y="35" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="bold" fill="#202122" text-anchor="middle">Leonardo da Vinci</text>
+    <text x="213" y="59" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="normal" fill="#54595d" text-anchor="middle">Leonardo di ser Piero da Vinci</text>
+    <path d="M12 78H414" stroke="#c8ccd1" />
+    <text x="13" y="104" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="bold" fill="#202122" text-anchor="start">Born</text>
+    <text x="162" y="104" font-family="DejaVu Sans, sans-serif" font-size="16" font-weight="normal" fill="#202122" text-anchor="start">15 April 1452</text>
+    <text x="162" y="126" font-family="DejaVu Sans, sans-serif" font-size="16" font-weight="normal" fill="#202122" text-anchor="start">Vinci, Italy</text>
+    <path d="M12 145H414" stroke="#c8ccd1" />
+    <text x="13" y="171" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="bold" fill="#202122" text-anchor="start">Died</text>
+    <text x="162" y="171" font-family="DejaVu Sans, sans-serif" font-size="16" font-weight="normal" fill="#202122" text-anchor="start">2 May 1519</text>
+    <text x="162" y="193" font-family="DejaVu Sans, sans-serif" font-size="16" font-weight="normal" fill="#202122" text-anchor="start">Amboise, France</text>
+    <path d="M12 212H414" stroke="#c8ccd1" />
+    <text x="13" y="238" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="bold" fill="#202122" text-anchor="start">Other residences</text>
+    <text x="162" y="238" font-family="DejaVu Sans, sans-serif" font-size="16" font-weight="normal" fill="#202122" text-anchor="start">Florence, Italy</text>
+    <text x="162" y="260" font-family="DejaVu Sans, sans-serif" font-size="16" font-weight="normal" fill="#202122" text-anchor="start">Milan, Italy</text>
+    <text x="162" y="282" font-family="DejaVu Sans, sans-serif" font-size="16" font-weight="normal" fill="#202122" text-anchor="start">Rome, Italy</text>
+    <path d="M12 303H414" stroke="#c8ccd1" />
+    <text x="13" y="329" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="bold" fill="#202122" text-anchor="start">Occupations</text>
+    <text x="162" y="329" font-family="DejaVu Sans, sans-serif" font-size="16" font-weight="normal" fill="#202122" text-anchor="start">painter, polymath,</text>
+    <text x="162" y="351" font-family="DejaVu Sans, sans-serif" font-size="16" font-weight="normal" fill="#202122" text-anchor="start">inventor, sculptor</text>
+  </g>
+  <g transform="translate(458 16)" role="group" aria-label="Marie Curie">
+    <rect width="426" height="373" fill="#f8f9fa" stroke="#a2a9b1" />
+    <rect x="1" y="1" width="424" height="77" fill="#dde8f2" />
+    <text x="213" y="35" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="bold" fill="#202122" text-anchor="middle">Marie Curie</text>
+    <text x="213" y="59" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="normal" fill="#54595d" text-anchor="middle">Maria Salomea Skłodowska</text>
+    <path d="M12 78H414" stroke="#c8ccd1" />
+    <text x="13" y="104" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="bold" fill="#202122" text-anchor="start">Born</text>
+    <text x="162" y="104" font-family="DejaVu Sans, sans-serif" font-size="16" font-weight="normal" fill="#202122" text-anchor="start">7 November 1867</text>
+    <text x="162" y="126" font-family="DejaVu Sans, sans-serif" font-size="16" font-weight="normal" fill="#202122" text-anchor="start">Warsaw, Poland</text>
+    <path d="M12 145H414" stroke="#c8ccd1" />
+    <text x="13" y="171" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="bold" fill="#202122" text-anchor="start">Died</text>
+    <text x="162" y="171" font-family="DejaVu Sans, sans-serif" font-size="16" font-weight="normal" fill="#202122" text-anchor="start">4 July 1934</text>
+    <text x="162" y="193" font-family="DejaVu Sans, sans-serif" font-size="16" font-weight="normal" fill="#202122" text-anchor="start">Passy, France</text>
+    <path d="M12 212H414" stroke="#c8ccd1" />
+    <text x="13" y="238" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="bold" fill="#202122" text-anchor="start">Other residences</text>
+    <text x="162" y="238" font-family="DejaVu Sans, sans-serif" font-size="16" font-weight="normal" fill="#202122" text-anchor="start">Paris, France</text>
+    <path d="M12 303H414" stroke="#c8ccd1" />
+    <text x="13" y="329" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="bold" fill="#202122" text-anchor="start">Occupations</text>
+    <text x="162" y="329" font-family="DejaVu Sans, sans-serif" font-size="16" font-weight="normal" fill="#202122" text-anchor="start">physicist, chemist</text>
+  </g>
+  <g transform="translate(900 16)" role="group" aria-label="Ada Lovelace">
+    <rect width="426" height="373" fill="#f8f9fa" stroke="#a2a9b1" />
+    <rect x="1" y="1" width="424" height="77" fill="#dde8f2" />
+    <text x="213" y="47" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="bold" fill="#202122" text-anchor="middle">Ada Lovelace</text>
+    <path d="M12 78H414" stroke="#c8ccd1" />
+    <text x="13" y="104" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="bold" fill="#202122" text-anchor="start">Born</text>
+    <text x="162" y="104" font-family="DejaVu Sans, sans-serif" font-size="16" font-weight="normal" fill="#202122" text-anchor="start">10 December 1815</text>
+    <text x="162" y="126" font-family="DejaVu Sans, sans-serif" font-size="16" font-weight="normal" fill="#202122" text-anchor="start">London, United Kingdom</text>
+    <path d="M12 145H414" stroke="#c8ccd1" />
+    <text x="13" y="171" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="bold" fill="#202122" text-anchor="start">Died</text>
+    <text x="162" y="171" font-family="DejaVu Sans, sans-serif" font-size="16" font-weight="normal" fill="#202122" text-anchor="start">27 November 1852</text>
+    <text x="162" y="193" font-family="DejaVu Sans, sans-serif" font-size="16" font-weight="normal" fill="#202122" text-anchor="start">London, United Kingdom</text>
+    <path d="M12 212H414" stroke="#c8ccd1" />
+    <text x="13" y="238" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="bold" fill="#202122" text-anchor="start">Other residences</text>
+    <text x="162" y="238" font-family="DejaVu Sans, sans-serif" font-size="16" font-weight="normal" fill="#202122" text-anchor="start">Kirkby Mallory, United Kingdom</text>
+    <text x="162" y="260" font-family="DejaVu Sans, sans-serif" font-size="16" font-weight="normal" fill="#202122" text-anchor="start">Surrey, United Kingdom</text>
+    <path d="M12 303H414" stroke="#c8ccd1" />
+    <text x="13" y="329" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="bold" fill="#202122" text-anchor="start">Occupations</text>
+    <text x="162" y="329" font-family="DejaVu Sans, sans-serif" font-size="16" font-weight="normal" fill="#202122" text-anchor="start">mathematician, writer,</text>
+    <text x="162" y="351" font-family="DejaVu Sans, sans-serif" font-size="16" font-weight="normal" fill="#202122" text-anchor="start">computer scientist</text>
+  </g>
+</svg>

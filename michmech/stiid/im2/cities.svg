@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="396" viewBox="0 0 800 396" role="img" aria-labelledby="title desc">
+  <title id="title">City data by year</title>
+  <desc id="desc">Values for Paris, Berlin, Madrid, Vienna and Rome in 2000, 2010, 2020 and 2030. The 2030 figures are projected.</desc>
+  <defs><clipPath id="table"><rect x="24" y="24" width="752" height="348" rx="12"/></clipPath></defs>
+  <g clip-path="url(#table)">
+    <rect x="24" y="24" width="752" height="348" fill="#fff"/>
+    <path d="M24 148h752v56H24z M24 260h752v56H24z" fill="#f5f7fb"/>
+    <path d="M24 24h752v68H24z" fill="#172d48"/>
+    <path d="M24 148h752 M24 204h752 M24 260h752 M24 316h752" stroke="#dbe4ec"/>
+    <g font-family="Inter, Arial, sans-serif" font-size="21" style="font-variant-numeric:tabular-nums">
+      <g fill="#fff" font-weight="700">
+        <text x="48" y="65">City</text>
+        <text x="268" y="65" text-anchor="middle">2000</text>
+        <text x="388" y="65" text-anchor="middle">2010</text>
+        <text x="508" y="65" text-anchor="middle">2020</text>
+        <text x="671" y="65" text-anchor="middle">2030 (Projected)</text>
+      </g>
+      <g fill="#1b3048" font-weight="400">
+        <text x="48" y="127" font-weight="600">Paris</text>
+        <text x="268" y="127" text-anchor="middle">2.15</text>
+        <text x="388" y="127" text-anchor="middle">2.24</text>
+        <text x="508" y="127" text-anchor="middle">2.18</text>
+        <text x="671" y="127" text-anchor="middle">2.15</text>
+      </g>
+      <g fill="#1b3048" font-weight="400">
+        <text x="48" y="183" font-weight="600">Berlin</text>
+        <text x="268" y="183" text-anchor="middle">3.38</text>
+        <text x="388" y="183" text-anchor="middle">3.45</text>
+        <text x="508" y="183" text-anchor="middle">3.66</text>
+        <text x="671" y="183" text-anchor="middle">3.75</text>
+      </g>
+      <g fill="#1b3048" font-weight="400">
+        <text x="48" y="239" font-weight="600">Madrid</text>
+        <text x="268" y="239" text-anchor="middle">2.96</text>
+        <text x="388" y="239" text-anchor="middle">3.19</text>
+        <text x="508" y="239" text-anchor="middle">3.33</text>
+        <text x="671" y="239" text-anchor="middle">3.42</text>
+      </g>
+      <g fill="#1b3048" font-weight="400">
+        <text x="48" y="295" font-weight="600">Vienna</text>
+        <text x="268" y="295" text-anchor="middle">1.55</text>
+        <text x="388" y="295" text-anchor="middle">1.70</text>
+        <text x="508" y="295" text-anchor="middle">1.91</text>
+        <text x="671" y="295" text-anchor="middle">2.01</text>
+      </g>
+      <g fill="#1b3048" font-weight="400">
+        <text x="48" y="351" font-weight="600">Rome</text>
+        <text x="268" y="351" text-anchor="middle">2.66</text>
+        <text x="388" y="351" text-anchor="middle">2.76</text>
+        <text x="508" y="351" text-anchor="middle">2.84</text>
+        <text x="671" y="351" text-anchor="middle">2.80</text>
+      </g>
+    </g>
+  </g>
+  <rect x="24.5" y="24.5" width="751" height="347" rx="11.5" fill="none" stroke="#c9d6e2"/>
+</svg>

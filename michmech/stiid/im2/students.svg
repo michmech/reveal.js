@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="396" viewBox="0 0 1120 396" role="img" aria-labelledby="title desc">
+  <title id="title">Student data</title>
+  <desc id="desc">Five students with their dates of birth, years of study, average grades, main subjects and registration status.</desc>
+  <defs><clipPath id="table"><rect x="24" y="24" width="1072" height="348" rx="12"/></clipPath></defs>
+  <g clip-path="url(#table)">
+    <rect x="24" y="24" width="1072" height="348" fill="#fff"/>
+    <path d="M24 148h1072v56H24z M24 260h1072v56H24z" fill="#f5f7fb"/>
+    <path d="M24 24h1072v68H24z" fill="#172d48"/>
+    <path d="M24 148h1072 M24 204h1072 M24 260h1072 M24 316h1072" stroke="#dbe4ec"/>
+    <g font-family="Inter, Arial, sans-serif" font-size="21" style="font-variant-numeric:tabular-nums">
+      <g fill="#fff" font-weight="700">
+        <text x="48" y="65">Student Name</text>
+        <text x="296" y="65" text-anchor="middle">Date of Birth</text>
+        <text x="461" y="65" text-anchor="middle">Year of Study</text>
+        <text x="632" y="65" text-anchor="middle">Average Grade</text>
+        <text x="737" y="65">Main Subject</text>
+        <text x="1018" y="65" text-anchor="middle">Registered?</text>
+      </g>
+      <g fill="#1b3048" font-weight="400">
+        <text x="48" y="127" font-weight="600">Alex Mercer</text>
+        <text x="296" y="127" text-anchor="middle">2007-04-12</text>
+        <text x="461" y="127" text-anchor="middle">Year 1</text>
+        <text x="632" y="127" text-anchor="middle">1.3</text>
+        <text x="737" y="127">Computer Science</text>
+        <text x="1018" y="127" text-anchor="middle">Yes</text>
+      </g>
+      <g fill="#1b3048" font-weight="400">
+        <text x="48" y="183" font-weight="600">Chloe Zhao</text>
+        <text x="296" y="183" text-anchor="middle">2006-11-23</text>
+        <text x="461" y="183" text-anchor="middle">Year 2</text>
+        <text x="632" y="183" text-anchor="middle">1.1</text>
+        <text x="737" y="183">Biochemistry</text>
+        <text x="1018" y="183" text-anchor="middle">Yes</text>
+      </g>
+      <g fill="#1b3048" font-weight="400">
+        <text x="48" y="239" font-weight="600">Marcus Vance</text>
+        <text x="296" y="239" text-anchor="middle">2008-01-05</text>
+        <text x="461" y="239" text-anchor="middle">Year 1</text>
+        <text x="632" y="239" text-anchor="middle">3.2</text>
+        <text x="737" y="239">Linguistics</text>
+        <text x="1018" y="239" text-anchor="middle">No</text>
+      </g>
+      <g fill="#1b3048" font-weight="400">
+        <text x="48" y="295" font-weight="600">Elena Rostova</text>
+        <text x="296" y="295" text-anchor="middle">2007-08-30</text>
+        <text x="461" y="295" text-anchor="middle">Year 2</text>
+        <text x="632" y="295" text-anchor="middle">1.0</text>
+        <text x="737" y="295">Mathematics</text>
+        <text x="1018" y="295" text-anchor="middle">Yes</text>
+      </g>
+      <g fill="#1b3048" font-weight="400">
+        <text x="48" y="351" font-weight="600">Julian Alvarez</text>
+        <text x="296" y="351" text-anchor="middle">2006-03-14</text>
+        <text x="461" y="351" text-anchor="middle">Year 2</text>
+        <text x="632" y="351" text-anchor="middle">2.7</text>
+        <text x="737" y="351">Graphic Design</text>
+        <text x="1018" y="351" text-anchor="middle">Yes</text>
+      </g>
+    </g>
+  </g>
+  <rect x="24.5" y="24.5" width="1071" height="347" rx="11.5" fill="none" stroke="#c9d6e2"/>
+</svg>
