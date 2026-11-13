@@ -1,6 +1,6 @@
 340088-1 VO Sprachtechnologien, Informations- und Interfacedesign  
 Information management lecture 2
-# Managing data: XML, JSON, YAML, relational databases and knowledge graphs
+# Managing data: XML, JSON, YAML, databases and knowledge graphs
 
 ---
 ## We are here
@@ -12,7 +12,7 @@ Foundational technologies
 2. (LT2) Working with text: going above the level of character encoding <!--{.element class="grey"}-->
     <div>(LT2A) From spellcheckers to AI writing assistants</div>
 3. (IM1) Formats for structuring text: from plain text to XML <!--{.element class="grey"}-->
-4. <span class="hilite">**(IM2) Managing data: XML, JSON, YAML, relational databases and knowledge graphs**</span>
+4. <span class="hilite">**(IM2) Managing data: XML, JSON, YAML, databases and knowledge graphs**</span>
 
 A dive into NLP and AI
 
@@ -26,6 +26,73 @@ Multilingual software
 9. (UI2) Software localisation and globalisation: the challenge of translating on-screen text
 10. (IM3) Understanding Internet technology: how the Internet works under the hood
 11. (UI3) Managing multilingual websites: pitfalls to avoid on the multilingual web
+
+---
+Revision
+## What is the name of this markup language?
+```
+<book>
+  <info>
+    <title>The Minimalist Guide to Vienna</title>
+  </info>
+
+  <chapter>
+    <title>Your first week in Vienna</title>
+    <para>This is the first chapter of the book. It introduces...</para>
+    <section>
+      <title>Finding a place to live</title>
+      <para>This is a section explaining how to...</para>
+    </section>
+  </chapter>
+
+  <chapter>
+    <title>Beyond your first week</title>
+    <para>This chapter dives deeper into....</para>
+  </chapter>
+</book>
+```
+
+---
+Revision
+## What is wrong with this fragment of XML?
+```
+<div type="chapter">
+  <head>Your first week in Vienna
+  <p>This is the first chapter of the book. It introduces important stuff.
+</div>
+```
+```
+<div type="chapter">
+  <head>Your first week in Vienna</head>
+  <p>This is the first chapter of the book. It introduces important stuff.</p>
+</div>
+```
+<!--{.element class="fragment"}-->
+
+
+---
+Revision
+## What is wrong with this fragment of XML?
+```
+Explore the historic old town of <i>Salzburg</I>.
+```
+```
+Explore the historic old town of <i>Salzburg</i>.
+```
+<!--{.element class="fragment"}-->
+
+
+---
+Revision
+## What is wrong with this fragment of XML?
+```
+Explore the historic <b>old town of <i>Salzburg</b></i>.
+```
+```
+Explore the historic <b>old town of <i>Salzburg</i></b>.
+```
+<!--{.element class="fragment"}-->
+
 
 ---
 ## Plan for today
@@ -119,6 +186,12 @@ Julian Alvarez,2006-03-14,Year 2,2.7,Graphic Design,Yes
 
 ---
 ![](invoice.svg) <!--{.element style="width: 65%"}-->
+
+---
+## When a two-dimensional table is not enough, who you gonna call?
+- XML
+- JSON
+- YAML
 
 ---
 ## Structured data in XML
@@ -750,6 +823,11 @@ They all represent a *tree structure*.
 ## Can *everything* be represented as a tree structure?
 
 ---
+## When a tree structure is not enough, who you gonna call?
+- Relational databases
+- Knowledge graphs 
+
+---
 ## 3. Relational databases
 
 ---
@@ -875,9 +953,23 @@ Examples:
 ## How is this relevant for languge technology?
 - Many exchange formats for language data are XML (or, less commonly, JSON)
   - TMX, TBX...
-- Some language data exists as graphs
+- Some language data exists as graphs or Linked Data
   - Semantic networks: Wordnet...
-- LLMs can sometimes output *structured data*
+  - Wikidata Lexemes
+- LLMs can sometimes output *structured data* instead of human-like text
   - Typically in JSON
 - LLM reasoning can sometimes be *grounded* using knowledge graphs
   - "Resource-Augmented Generation" (RAG)
+
+---
+## Recommended further reading
+- JSON
+  - ‘Understanding JSON: A Beginner’s Guide’ https://blog.liquid-technologies.com/understanding-json-a-beginners-guide-part-1-of-4
+- YAML
+  - ‘YAML for Non-programmers’ http://thomasloven.com/blog/2018/08/YAML-For-Nonprogrammers/
+- Relational databases
+  - ‘A beginner’s guide to relational databases’ https://medium.com/@sumit_m/a-beginners-guide-to-relational-databases-d1bdd05beba2
+  - ‘Understanding Relational Databases Made Simple’ https://baserow.io/blog/understanding-relational-database
+  - ‘SQL Tutorial’ https://www.w3schools.com/sql/
+- Graph stuff
+  - ‘RDF 1.1 Primer’ https://www.w3.org/TR/rdf11-primer/
