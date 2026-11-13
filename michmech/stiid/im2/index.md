@@ -197,6 +197,64 @@ Julian Alvarez,2006-03-14,Year 2,2.7,Graphic Design,Yes
 ## Structured data in XML
 <!-- .slide: style="height: 100%; overflow-y: auto;" -->
 ```
+<invoice>
+  <invoiceNumber>INV-2026-0842</invoiceNumber>
+  <issueDate>2026-11-11</issueDate>
+  <dueDate>2026-12-11</dueDate>
+  <currency>EUR</currency>
+  <isPaid>false</isPaid>
+
+  <supplier>
+    <name>AlpenTech Solutions GmbH</name>
+    <email>billing@alpentech.at</email>
+    <address>
+      <street>Mariahilfer Straße 45</street>
+      <postalCode>1060</postalCode>
+      <city>Vienna</city>
+      <country>Austria</country>
+    </address>
+  </supplier>
+
+  <customer>
+    <name>Nordic Design Studio AB</name>
+    <contactPerson>Astrid Lindqvist</contactPerson>
+    <address>
+      <street>Drottninggatan 18</street>
+      <postalCode>111 51</postalCode>
+      <city>Stockholm</city>
+      <country>Sweden</country>
+    </address>
+  </customer>
+
+  <items>
+    <item>
+      <description>Wireless Mechanical Keyboard</description>
+      <quantity>3</quantity>
+      <unitPrice>110.00</unitPrice>
+      <total>330.00</total>
+    </item>
+    <item>
+      <description>27-inch 4K Monitor</description>
+      <quantity>2</quantity>
+      <unitPrice>325.50</unitPrice>
+      <total>651.00</total>
+    </item>
+    <item>
+      <description>USB-C Docking Station</description>
+      <quantity>3</quantity>
+      <unitPrice>85.00</unitPrice>
+      <total>255.00</total>
+    </item>
+  </items>
+
+  <totalAmount>1236.00</totalAmount>
+</invoice>
+```
+
+---
+## Structured data in XML
+<!-- .slide: style="height: 100%; overflow-y: auto;" -->
+```
 <people>
   <person>
     <names>
@@ -303,64 +361,6 @@ Julian Alvarez,2006-03-14,Year 2,2.7,Graphic Design,Yes
     </professions>
   </person>
 </people>
-```
-
----
-## Structured data in XML
-<!-- .slide: style="height: 100%; overflow-y: auto;" -->
-```
-<invoice>
-  <invoiceNumber>INV-2026-0842</invoiceNumber>
-  <issueDate>2026-11-11</issueDate>
-  <dueDate>2026-12-11</dueDate>
-  <currency>EUR</currency>
-  <isPaid>false</isPaid>
-
-  <supplier>
-    <name>AlpenTech Solutions GmbH</name>
-    <email>billing@alpentech.at</email>
-    <address>
-      <street>Mariahilfer Straße 45</street>
-      <postalCode>1060</postalCode>
-      <city>Vienna</city>
-      <country>Austria</country>
-    </address>
-  </supplier>
-
-  <customer>
-    <name>Nordic Design Studio AB</name>
-    <contactPerson>Astrid Lindqvist</contactPerson>
-    <address>
-      <street>Drottninggatan 18</street>
-      <postalCode>111 51</postalCode>
-      <city>Stockholm</city>
-      <country>Sweden</country>
-    </address>
-  </customer>
-
-  <items>
-    <item>
-      <description>Wireless Mechanical Keyboard</description>
-      <quantity>3</quantity>
-      <unitPrice>110.00</unitPrice>
-      <total>330.00</total>
-    </item>
-    <item>
-      <description>27-inch 4K Monitor</description>
-      <quantity>2</quantity>
-      <unitPrice>325.50</unitPrice>
-      <total>651.00</total>
-    </item>
-    <item>
-      <description>USB-C Docking Station</description>
-      <quantity>3</quantity>
-      <unitPrice>85.00</unitPrice>
-      <total>255.00</total>
-    </item>
-  </items>
-
-  <totalAmount>1236.00</totalAmount>
-</invoice>
 ```
 
 ---
@@ -896,6 +896,7 @@ where student_id = 101
   - MySQL, MariaDB
   - PostgreSQL
 
+---
 Side note
 ## What other databases are there besides *relational*?
 - Document databases
@@ -911,6 +912,7 @@ Side note
   - E.g. students, courses
 - **Edges** which represent *relationships* between nodes
   - E.g. "is enrolled in"
+
 Stored in *graph databases*. 
 
 ---
@@ -923,18 +925,17 @@ Stored in *graph databases*.
 
 ---
 ## An RDF *triple*
-
-- subject predicate object
+- subject → predicate → object
 
 Examples:
 
-- student101 isEnrolledIn course201  
-- course201 hasTitle "Linguistics"
+- student101 → isEnrolledIn → course201  
+- course201 → hasTitle → "Linguistics"
 
 ---
 ## Semantic Web
-- Goal: make the web data machine-readable as a graph
-- "Linked Data"
+- Goal: make data data machine-readable on the Web as a graph
+- *Linked Data*
 
 ![](wikidata.png) <!--{.element class="framed" style="width: 75%"}-->
 
@@ -959,7 +960,7 @@ Examples:
 - LLMs can sometimes output *structured data* instead of human-like text
   - Typically in JSON
 - LLM reasoning can sometimes be *grounded* using knowledge graphs
-  - "Resource-Augmented Generation" (RAG)
+  - *Resource-Augmented Generation* (RAG)
 
 ---
 ## Recommended further reading
@@ -973,3 +974,7 @@ Examples:
   - ‘SQL Tutorial’ https://www.w3schools.com/sql/
 - Graph stuff
   - ‘RDF 1.1 Primer’ https://www.w3.org/TR/rdf11-primer/
+
+---
+## That’s it, see you next week!
+
