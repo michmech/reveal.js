@@ -209,6 +209,11 @@ TBD
   - *Wien* → `location`
   - *Universität Wien* → `organisation`
 - Can be followed by *entity linking*
+- Demos:
+  - https://demos.explosion.ai/displacy-ent
+  - https://hanlp.hankcs.com/en/demos/ner.html
+  - https://cst.dk/online/navnegenkender/uk/
+
 
 ---
 ## Sentiment analysis
