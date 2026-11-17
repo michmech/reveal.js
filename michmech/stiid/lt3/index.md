@@ -56,7 +56,7 @@ DeepL has finally arrived in the U.S.
 
 ---
 ## Lemmatisation
-- Reducing each (inflected) word to its *lemma* (base form) 
+- Reducing the (inflected) *surface form* of each word to its *lemma* (base form)
   -  *traf, trifft, treffe* → *treffen*
 - aka *stemming*
 - Demos:
@@ -74,7 +74,54 @@ I like **running**.
 The trains **scheduled** for this afternoon will be delayed.
 
 ---
-## Part-of-speech Tagging
+## Stop-word removal
+1. "A quick recipe to bake a rich chocolate cake."
+2. `["a", "quick", "recipe", "to", "bake", "a", "rich", "chocolate", "cake"]`
+3. `["quick", "recipe", "bake", "rich", "chocolate", "cake"]`
+
+---
+## A brief excursion into full-text search
+
+> "A quick recipe to bake a rich chocolate cake."
+> "How to bake chocolate chip cookies quickly."
+> "No-bake chocolate mousse."
+> "Vanilla cupcake frosting tips."
+
+Query:
+
+> "quickly baking chocolate cakes"
+
+---
+## A brief excursion into full-text search
+
+> "A quick recipe to bake a rich chocolate cake."
+> `["recipe", "quick", "bake", "rich", "chocolate", "cake"]`
+> "How to bake chocolate chip cookies quickly."
+> `["bake", "chocolate", "chip", "cookie", "quick"]`
+> "No-bake chocolate mousse."
+> `["no", "bake", "chocolate", "mousse"]`
+> "Vanilla cupcake frosting tips."
+> `["vanilla", "cupcake", "frosting", "tip"]`
+
+---
+## A brief excursion into full-text search
+
+> "A quick recipe to bake a rich chocolate cake."
+> `["recipe", "quick", "bake", "rich", "chocolate", "cake"]`
+> "How to bake chocolate chip cookies quickly."
+> `["bake", "chocolate", "chip", "cookie", "quick"]`
+> "No-bake chocolate mousse."
+> `["no", "bake", "chocolate", "mousse"]`
+> "Vanilla cupcake frosting tips."
+> `["vanilla", "cupcake", "frosting", "tip"]`
+
+Query:
+
+> "quickly baking chocolate cakes"
+> `["quick", "bake", "chocolate", "cake"]`
+
+---
+## Part-of-speech tagging
 - aka *POS tagging*
 - Assigning a part of speech (grammatical category) to each word
   - verb, noun, adjective...
@@ -134,7 +181,75 @@ TBD
     `[S [NP [PRP$ My] [JJ older] [NN brother]][VP [VBZ is][ADJP [RB very] [JJ talented]]]]`
 
 ---
-## Bib
-- Uszkoreit, Hans. (2010). Language Technology. A First Overview. German Research Center for Artificial Intelligence (2000): 1-4.
-- Carstensen, Kai-Uwe (2017): Sprachtechnologie. Ein Überblick. Online verfügbar unter: http://kai-uwe-carstensen.de/Publikationen/Sprachtechnologie.pdf
+## Shallow parsing
+- aka *chunking*
 
+---
+## Co-reference resolution
+- Recognising what pronouns etc. *refer* to (inside the same text)
+  - Paul liebt Bücher. **Er** liest oft.
+  - Ich gieße Milch aus der Flasche in die Tasse, bis **sie** voll ist.  
+    Ich gieße Milch aus der Flasche in die Tasse, bis **sie** leer ist.
+
+---
+## Word sense disambiguation
+TBD
+
+---
+## Yes but what's it *for*?
+- Linguistic research, corpus linguistics
+- Language-related tasks: term extraction...
+- Writing assistance tools: spellcheckers, grammar correctors
+- Full-text search
+- Base for higher-level NLP tasks
+
+---
+## Named-entity recognition
+- Recognizing and classifying proper names
+  - *Wien* → `location`
+  - *Universität Wien* → `organisation`
+- Can be followed by *entity linking*
+
+---
+## Sentiment analysis
+- Recognising and clasifying *evaluative* language.
+  - *Der Film war großartig.* → `positive`
+  - *Their attritude left a lot to be desired.* → `negative`
+
+---
+## Topic modelling
+- Discovering and naming the topic/theme/genre of a text
+
+---
+## Intent recognition
+- "Where is my stuff? It was supposed to arrive yesterday." → `track_order`
+- "I accidentally bought two of these, can I send one back?" → `initiate_return`
+- "I think I left my Visa at the restaurant, freeze it." → `lock_card`
+
+---
+## Flagging problematic texts
+- hate speech detection
+- spam detection
+- bias detection
+
+---
+## A brief excursion into bias in machine translation
+TBD
+
+---
+## Tools for NLP
+- NLP software libraries:
+  - [spaCy](https://spacy.io/)
+  - [NLTK](https://www.nltk.org/)
+  - [Stanza](https://stanfordnlp.github.io/stanza/)
+  - [Gensim](https://radimrehurek.com/gensim/)
+- NLP pipelines
+
+---
+## Recommended reading
+
+- 'Advanced NLP with spaCy' https://course.spacy.io/en
+
+- 'A Gentle Introduction to Natural Language Processing' https://medium.com/data-science/a-gentle-introduction-to-natural-language-processing-e716ed3c0863
+
+- Kai-Uwe Carstensen (2017): 'Sprachtechnologie: Ein Überblick' http://kai-uwe-carstensen.de/Publikationen/Sprachtechnologie.pdf
