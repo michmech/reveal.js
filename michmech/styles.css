@@ -21,6 +21,7 @@ section {
   text-align: left;
   box-sizing: border-box;
   padding: 20px 40px;
+  width: 1100px !important;
 }
 
 h1 {
@@ -124,4 +125,9 @@ blockquote h1 {
 blockquote h2 {
   font-weight: normal;
   font-size: 1.1em;
+}
+
+div.small {
+  font-size: 0.8em;
+  margin-top: 2em;
 }
