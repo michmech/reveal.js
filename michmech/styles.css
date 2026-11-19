@@ -51,7 +51,17 @@ p {
   line-height: 1.5em;
 }
 
-ul, ol, li {
+ul, ol {
+  margin: 1em 0;
+  padding: 0;
+}
+
+ul ul, ul ol, ol ul, ol ol {
+  margin: 0;
+  padding: 0;
+}
+
+li {
   margin: 0;
   padding: 0;
 }

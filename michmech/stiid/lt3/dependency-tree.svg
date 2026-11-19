@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="450" viewBox="0 0 960 450" role="img" aria-labelledby="title desc">
+  <title id="title">Dependency tree for My older brother is very talented.</title>
+  <desc id="desc">The root is is. Its dependents are brother (nsubj), talented (acomp), and the full stop (punct). Brother has dependents My (poss) and older (amod). Talented has dependent very (advmod).</desc>
+  <rect width="960" height="450" fill="#fff"/>
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0 0 L8 4 L0 8 Z" fill="#64736f"/>
+    </marker>
+  </defs>
+  <g fill="none" stroke="#64736f" stroke-width="2" stroke-linecap="round" marker-end="url(#arrow)">
+    <path d="M450 112 L212 190"/>
+    <path d="M470 112 L568 190"/>
+    <path d="M498 105 L815 190"/>
+    <path d="M186 246 L105 322"/>
+    <path d="M238 246 L309 322"/>
+    <path d="M572 246 L572 322"/>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif" font-size="15" text-anchor="middle" fill="#42514d">
+    <g><rect x="285" y="135" width="56" height="26" rx="13" fill="#fff"/><text x="313" y="153">nsubj</text></g>
+    <g><rect x="482" y="142" width="63" height="26" rx="13" fill="#fff"/><text x="513.5" y="160">acomp</text></g>
+    <g><rect x="640" y="132" width="53" height="26" rx="13" fill="#fff"/><text x="666.5" y="150">punct</text></g>
+    <g><rect x="121" y="273" width="46" height="26" rx="13" fill="#fff"/><text x="144" y="291">poss</text></g>
+    <g><rect x="244" y="273" width="50" height="26" rx="13" fill="#fff"/><text x="269" y="291">amod</text></g>
+    <g><rect x="536" y="275" width="72" height="26" rx="13" fill="#fff"/><text x="572" y="293">advmod</text></g>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif" text-anchor="middle">
+    <g transform="translate(480 82)"><rect x="-54" y="-30" width="108" height="60" rx="10" fill="#edf4ee" stroke="#6e966f" stroke-width="1.5"/><text y="-1" font-size="21" font-weight="600" fill="#202925">is</text><text y="19" font-size="12" font-weight="600" letter-spacing="1" fill="#5c765d">AUX · ROOT</text></g>
+    <g transform="translate(212 216)"><rect x="-67" y="-30" width="134" height="60" rx="10" fill="#fff" stroke="#9daaa5" stroke-width="1.5"/><text y="-1" font-size="21" font-weight="600" fill="#202925">brother</text><text y="19" font-size="12" font-weight="600" letter-spacing="1" fill="#a66b20">NOUN</text></g>
+    <g transform="translate(572 216)"><rect x="-71" y="-30" width="142" height="60" rx="10" fill="#fff" stroke="#9daaa5" stroke-width="1.5"/><text y="-1" font-size="21" font-weight="600" fill="#202925">talented</text><text y="19" font-size="12" font-weight="600" letter-spacing="1" fill="#7155c8">ADJ</text></g>
+    <g transform="translate(815 216)"><rect x="-43" y="-30" width="86" height="60" rx="10" fill="#fff" stroke="#9daaa5" stroke-width="1.5"/><text y="-1" font-size="21" font-weight="600" fill="#202925">.</text><text y="19" font-size="12" font-weight="600" letter-spacing="1" fill="#6b7774">PUNCT</text></g>
+    <g transform="translate(105 348)"><rect x="-49" y="-30" width="98" height="60" rx="10" fill="#fff" stroke="#9daaa5" stroke-width="1.5"/><text y="-1" font-size="21" font-weight="600" fill="#202925">My</text><text y="19" font-size="12" font-weight="600" letter-spacing="1" fill="#68a000">PRON</text></g>
+    <g transform="translate(309 348)"><rect x="-53" y="-30" width="106" height="60" rx="10" fill="#fff" stroke="#9daaa5" stroke-width="1.5"/><text y="-1" font-size="21" font-weight="600" fill="#202925">older</text><text y="19" font-size="12" font-weight="600" letter-spacing="1" fill="#7155c8">ADJ</text></g>
+    <g transform="translate(572 348)"><rect x="-51" y="-30" width="102" height="60" rx="10" fill="#fff" stroke="#9daaa5" stroke-width="1.5"/><text y="-1" font-size="21" font-weight="600" fill="#202925">very</text><text y="19" font-size="12" font-weight="600" letter-spacing="1" fill="#7155c8">ADV</text></g>
+  </g>
+</svg>
