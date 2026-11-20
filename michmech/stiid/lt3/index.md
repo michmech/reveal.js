@@ -1,6 +1,6 @@
 340088-1 VO Sprachtechnologien, Informations- und Interfacedesign  
 Language technology lecture 3
-# Introduction to Natural Language Processing (NLP) 
+# Introduction to Natural Language Processing (NLP): tagging, parsing and more
 
 ---
 ## We are here
@@ -16,7 +16,7 @@ Foundational technologies
 
 A dive into NLP and AI
 
-5. <span class="hilite">**(LT3) Introduction to Natural Language Processing (NLP)**</span>
+5. <span class="hilite">**(LT3) Introduction to Natural Language Processing (NLP): tagging, parsing and more**</span>
 6. (LT4) Understanding the technology behind NLP: language models, vectors, word embeddings
 7. (LT5) Large Language Models (LLMs): understanding how they do what they do
 
@@ -421,7 +421,7 @@ aka *RDF graph*
   ["das", "Gericht", "sprechen", "von",  "ein",   "historisch",   "Entscheidung", "."]
   ```
 
-3. Part-of-peech tagging
+3. Part-of-speech tagging
   ```
   ["DET", "N",       "V",        "PREP", "DET",   "ADJ",          "N",            "PUNC"]
   ```
@@ -478,15 +478,10 @@ aka *RDF graph*
   - https://cst.dk/online/lemmatiser/uk/
 
 ---
-## Lemmatisation
-The **leaves** are falling. → leaf  
-She **leaves** tomorrow. → leave
+## Lemmatisation: disambiguation from context
 
-I've been **running** all day.  
-I like **running**.  
-**Running** is my favourite way to relax.  
-
-The trains **scheduled** for this afternoon will be delayed.
+> The **leaves** are falling. → leaf  
+> She **leaves** tomorrow. → leave
 
 ---
 ## Stop-word removal
@@ -555,6 +550,16 @@ Query:
   - https://context-lab.com/llm-course/demos/pos-tagging/
   - https://hanlp.hankcs.com/en/demos/pos.html
   - https://cst.dk/online/pos_tagger/uk/index.html
+
+---
+## Part-of-speech tagging: the difficult cases
+
+> I've been **running** all day.  
+> I like **running**.  
+> **Running** is my favourite way to relax.  
+>
+> They've **scheduled** my lecture for Friday morning.  
+> The trains **scheduled** for this afternoon will be delayed.
 
 ---
 ## CLAWS
